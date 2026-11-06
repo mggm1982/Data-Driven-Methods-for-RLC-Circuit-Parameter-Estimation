@@ -1,0 +1,37 @@
+# Manuscript concern-by-concern response
+
+This is a descriptive reporting revision, not new model selection. Original splits, source data, checkpoints, and measured result archives are preserved.
+
+| # | Concern / what was wrong | Correction and boundary |
+|---|---|---|
+| 1 | Table V concealed mixed timing sessions. | Caption, abstract, and discussion identify historical full-grid timings from separate noise/fitting runs versus new reduced-window timings. Values unchanged. |
+| 2 | Float32 rounding sounded inconsistent with no quantization. | Distinguish floating-point representation from absent sensor/ADC quantization. |
+| 3 | Noisy copies implied stored training augmentation. | Split membership follows circuit identity; training noise is online, validation/test realizations fixed by seeds, regenerated or retained in memory. |
+| 4 | Timing aggregations were not comparable or defined. | Neural min–max of three seed medians; fitting pooled median of 19,500 actual solves across 13 conditions. |
+| 5 | Intermediate noise levels were omitted. | Added generated full-grid 0/1/2/5/10% table, including seed SD. No new measurements. |
+| 6 | “Best matched ideal model” had no clear referent. | Explicitly compare fitting to either neural estimator under matched ideal physics. |
+| 7 | “Data trade-off” obscured clean-input costs. | State increased R/C clean errors; do not interpret tiny L difference as improvement. |
+| 8 | Training loss and target scaling unstated. | MSE over standardized natural-log targets, using training-label statistics only; inverse decoding described. |
+| 9 | Initial architecture/lr choice provenance unstated. | Records do not establish a systematic search or independence of original choices from test inspection. Do not invent a selection history. |
+| 10 | Means alone hid seed variation. | Added sample seed SD for noise sweep and every window/density median; complete available statistic/rate spreads archived in summaries.json. |
+| 11 | “Mean of circuit-level medians” and “conditions” ambiguous. | Define median over 1,500 circuits, average realizations within seed, then average seeds; p95 is not pooled. |
+| 12 | Noise level sounded epoch-wide; actual epochs absent. | Independent level per circuit per epoch, fresh Gaussian draws; 54 distinct models, 28–200 epochs, median 140.5; 15 hit cap. |
+| 13 | Implementation and timing workload unclear. | PyTorch vs SciPy; one CPU thread; batch one; warmups excluded; serial fitting stages and all three solver tolerances named. Historical workloads not identical. |
+| 14 | Historical checkpoint/reuse language unexplained. | Explain excluded clean-validation baseline and artifact/split/noise provenance checks before full-grid reuse. |
+| 15 | Reproducibility lacked seeds and availability. | Add generation/split/training/noise seeds, stack, local artifact locations, and explicit absence of public release URL or bundled large artifacts. MPS bitwise caveat. |
+| 16 | Bounds/start give fitter distribution prior absent from neural output constraints. | Explicit disclosure; no retrospective clipping or altered estimator. |
+| 17 | Sparse-tail conclusion could reflect weak fixed-start baseline. | Completed bounded five-start diagnostic under `docs/sparse_multistart.md`; measured archive in `results/sparse_multistart/`. All 52 clean >10% cases removed; pooled 10%-noise any-component >50% incidence falls 6.73% to 3.40% (NMLP 1.81%), >10% falls 17.44% to 14.60%. Contemporaneous noisy center/full-five medians 1.652/9.012 ms; historical single-start timing kept separate. Abstract, sparse-tail discussion and conclusion now acknowledge initialization's substantial contribution; historical tables remain single-start. Five starts are not a global-optimum guarantee. |
+| 18 | Longer-window explanation omitted decay. | Completed read-only fixed-bin tau/frequency diagnostics under `docs/transient_diagnostics.md`, archived in `results/transient_diagnostics/` (summary, report, SHA manifest, standalone HTML plots). All six dense windows, matched clean/augmented seeds and clean/10% conditions retained; realization means within seed, then seed means/sample SD. Augmented 10%-noise tau/max-error Spearman means for 1/5/50 ms are +0.328/−0.028/−0.195. Manuscript reports measured window-dependent associations, not a causal late-noise mechanism or prospectively optimal duration. |
+| 19 | Sparse failure explanation omitted transient under-resolution. | Same archive verifies original IDs/truth, dataset/prediction hashes, conditions and noise/grid pairing for historical single-start, five-start and all augmented seeds. Both axes account for 1,494 underdamped circuits; six overdamped cases reported separately. Fixed tau-bin counts 166/342/465/422/99; frequency-bin counts 577/757/160/0. At 10% noise, sparse >10% rates in 1–2 kHz are 65.00% single / 38.13% five versus 3.41% for either below 0.5 kHz; five-start rates at tau 0.2–0.5 / 5–10 ms are 53.41% / 0%. Empty bins are not zero error. Correlated physical parameters and residual optimization ambiguity prevent isolating aliasing from decay; no new fitting/training or selection. |
+| 20 | “Robustness” sounded out-of-distribution. | Completed final bounded fixed-checkpoint 15%/20% Gaussian-amplitude stress test under `docs/noise_extrapolation.md`, archived in `results/noise_extrapolation/`. Same six matched full-grid checkpoints and original 1,500 test circuits; no retraining, fitting, selection or timing study. Augmented R/L/C mean medians are 3.926/2.824/2.887% at 15% and 5.133/3.715/3.720% at 20%, below clean controls but worse than original 10% context. Augmented any-component >10% rates are 16.037/31.393%, >50% 0/0.022%; full seed SD and condition tails archived. New independent root 20261020 shares base normals across new amplitudes/models, not with historical 10% streams (root 20261018; historical MPS versus new CPU). Generated standalone table and manuscript distinguish bounded unseen-amplitude evidence from untested noise types, hardware and general OOD robustness; repeated realizations are not new independent circuits. |
+| 21 | Overdamped caveat omitted training coverage. | Explicitly require separately designed distribution for meaningful overdamped assessment; no scope expansion here. |
+| 22 | Typos and broken prose. | Fix remaining “evert”, “can be describe”, “and but”, noisy-measurement phrase, comma, fragment, and abstract grammar. Uttarakhand, processing, and matching-input were already correct in source. |
+| 23 | Answer availability undefined. | Rename to time to first estimate, explicitly acquisition plus processing. |
+| 24 | Classical identification context missing. | Add restrained least-squares/prediction-error and subspace positioning, with verified book metadata; no unmeasured superiority claims. |
+| 25 | Avoiding waveform differentiation confused parameter Jacobians. | Distinguish waveform derivatives from finite-difference solver derivatives w.r.t. parameters. |
+
+## Reporting verification
+
+Run `python3 paper/generate_tables.py --check`, `.venv/bin/python -m scripts.noise_extrapolation --check-table`, `.venv/bin/python -m unittest discover -s tests -v`, and `git diff --check`. No local pdfLaTeX is installed; table layout, page count, float placement, and bibliography rendering remain unverified.
+
+The initial hyperparameter-choice history and a public data/code release cannot be reconstructed by prose editing. New experiments, if performed, must be separately protocolled, verified, and committed chronologically.

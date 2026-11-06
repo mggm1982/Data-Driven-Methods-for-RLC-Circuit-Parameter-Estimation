@@ -1,0 +1,16 @@
+DECLARATION AND CONSENT
+
+I, Kunal Kashyap, Roll No. 24123019, give my consent to my instructor to publicly share the following materials submitted for my project, after review:
+
+1. My source code on GitHub, with the link shared for others to download and review.
+2. My video presentation (videoPPT) on YouTube, with the link shared for public viewing.
+3. My article, if submitted, on a preprint server.
+
+I have no objection to these materials being made publicly available for others, including my classmates, to review my work, originality, performance, and the basis for the marks awarded to me.
+
+I confirm that I have disclosed any copied or adapted code and any use of AI-assisted coding tools, and have acknowledged all relevant sources and assistance.
+
+This declaration records my own consent only and does not represent the consent or waive the rights of any other person.
+
+Project Title: Data Driven Methods for RLC Circuit Parameter Estimation
+Name: Kunal Kashyap

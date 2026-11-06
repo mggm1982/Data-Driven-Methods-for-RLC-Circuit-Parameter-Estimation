@@ -1,0 +1,137 @@
+{
+  "command": ".venv/bin/python -m results.sparse_multistart.validate_compatibility",
+  "scope": "Fixed rows 0,749,1499 in clean and all three saved 10% realizations; all five starts. No sweep, tuning, training, or replacement of measurements.",
+  "reproducer_sha256": "52f961242a7d60c81a42470e01926817990a768672eedb87af5100fe3e882d98",
+  "validation_source_sha256": "fd10c3e453459ac808b20b3b212e22619e9823144e20d17fa51145772f6d3ba1",
+  "restored_fitter_sha256": "6095912bf8866e1de7ca7c15c1064929650b47399c384999633ef6f0c435a5dd",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "torch": "2.14.1",
+    "python": "3.14.8"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "cpu_threads": 1,
+  "original_window_references": "Passed unmodified references(), including original frozen-source check and six checkpoints/prediction archives.",
+  "measured_snapshot_and_input_hash_checks": "passed",
+  "comparison": "Exact array equality for predictions, costs, selection and all non-timing solver diagnostics; timing deliberately excluded.",
+  "solves": 60,
+  "checks": [
+    {
+      "level_index": 0,
+      "realization": 0,
+      "row": 0,
+      "sample_id": "2",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 1
+    },
+    {
+      "level_index": 0,
+      "realization": 0,
+      "row": 749,
+      "sample_id": "4723",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 2
+    },
+    {
+      "level_index": 0,
+      "realization": 0,
+      "row": 1499,
+      "sample_id": "9995",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 0
+    },
+    {
+      "level_index": 4,
+      "realization": 0,
+      "row": 0,
+      "sample_id": "2",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 2
+    },
+    {
+      "level_index": 4,
+      "realization": 0,
+      "row": 749,
+      "sample_id": "4723",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 1
+    },
+    {
+      "level_index": 4,
+      "realization": 0,
+      "row": 1499,
+      "sample_id": "9995",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 4
+    },
+    {
+      "level_index": 4,
+      "realization": 1,
+      "row": 0,
+      "sample_id": "2",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 3
+    },
+    {
+      "level_index": 4,
+      "realization": 1,
+      "row": 749,
+      "sample_id": "4723",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 1
+    },
+    {
+      "level_index": 4,
+      "realization": 1,
+      "row": 1499,
+      "sample_id": "9995",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 2
+    },
+    {
+      "level_index": 4,
+      "realization": 2,
+      "row": 0,
+      "sample_id": "2",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 1
+    },
+    {
+      "level_index": 4,
+      "realization": 2,
+      "row": 749,
+      "sample_id": "4723",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 2
+    },
+    {
+      "level_index": 4,
+      "realization": 2,
+      "row": 1499,
+      "sample_id": "9995",
+      "starts_checked": 5,
+      "predictions_and_costs_exact": true,
+      "selected_start": 3
+    }
+  ],
+  "limitation": "Finite fixed-case compatibility validation, not a new experiment or proof for every possible input; no new performance measurements reported."
+}

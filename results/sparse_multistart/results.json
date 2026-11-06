@@ -1,0 +1,1123 @@
+{
+  "conditions": [
+    {
+      "level": 0.0,
+      "realization": 0,
+      "full_sha256": "2661f1b6ce90c877004eef356c158ba03095b2abbcb81cf7ff1fa7c0f4a7ceaf",
+      "selected_sha256": "c25883891747ef0bd31a347ca3ed64552b1f08c6397702a3bad2aaa0a3453ed8",
+      "historical_single": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 1.0485950768986102e-08,
+              "mean": 0.18807163198785876,
+              "p95": 1.2022654437510027e-06,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 2.28172628190479e-08,
+              "mean": 0.09769138093384,
+              "p95": 1.2381194804567136e-06,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 2.0104495912129052e-08,
+              "mean": 0.00990503082237177,
+              "p95": 1.21621179090515e-06,
+              "max": 0.9609376772119788
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 52,
+            "rate": 0.034666666666666665
+          },
+          "any_gt_50_percent": {
+            "count": 51,
+            "rate": 0.034
+          }
+        },
+        "historical_timing": {
+          "median_seconds": 0.0016139374929480255,
+          "mean_seconds": 0.001884756714804098,
+          "p95_seconds": 0.0034513478633016337,
+          "max_seconds": 0.029913332895375788,
+          "total_seconds": 2.827135072206147
+        },
+        "solver": {
+          "status_counts": {
+            "1": 1451,
+            "2": 39,
+            "3": 10
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "new_center": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 1.0485950768986102e-08,
+              "mean": 0.18807163198785876,
+              "p95": 1.2022654437510027e-06,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 2.28172628190479e-08,
+              "mean": 0.09769138093384,
+              "p95": 1.2381194804567136e-06,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 2.0104495912129052e-08,
+              "mean": 0.00990503082237177,
+              "p95": 1.21621179090515e-06,
+              "max": 0.9609376772119788
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 52,
+            "rate": 0.034666666666666665
+          },
+          "any_gt_50_percent": {
+            "count": 51,
+            "rate": 0.034
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.001615604036487639,
+          "mean_seconds": 0.0018671514178471018,
+          "p95_seconds": 0.0033979652216657996,
+          "max_seconds": 0.01594904193188995,
+          "total_seconds": 2.800727126770653
+        },
+        "solver": {
+          "status_counts": {
+            "1": 1451,
+            "2": 39,
+            "3": 10
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "full5": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 9.971300866765213e-09,
+              "mean": 4.985282927778457e-05,
+              "p95": 2.2661119270433582e-07,
+              "max": 0.04581509343532566
+            },
+            "inductance_h": {
+              "median": 2.1311268728608653e-08,
+              "mean": 4.9828828798694427e-05,
+              "p95": 2.5912993840787236e-07,
+              "max": 0.045772775056444906
+            },
+            "capacitance_f": {
+              "median": 1.9133707068309085e-08,
+              "mean": 5.100358458272012e-05,
+              "p95": 2.546732434876487e-07,
+              "max": 0.048062886995771804
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 0,
+            "rate": 0.0
+          },
+          "any_gt_50_percent": {
+            "count": 0,
+            "rate": 0.0
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.008604228962212801,
+          "mean_seconds": 0.009852230174156526,
+          "p95_seconds": 0.016126475017517804,
+          "max_seconds": 0.0695435410598293,
+          "total_seconds": 14.77834526123479
+        },
+        "selected_solver": {
+          "status_counts": {
+            "1": 1483,
+            "3": 17
+          },
+          "success": 1500,
+          "failure": 0
+        },
+        "all_starts_solver": {
+          "status_counts": {
+            "1": 7342,
+            "2": 107,
+            "3": 51
+          },
+          "success": 7500,
+          "failure": 0
+        },
+        "per_start_solver": [
+          {
+            "status_counts": {
+              "1": 1451,
+              "2": 39,
+              "3": 10
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 1464,
+              "2": 26,
+              "3": 10
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 1452,
+              "2": 42,
+              "3": 6
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 1484,
+              "3": 16
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 1491,
+              "3": 9
+            },
+            "success": 1500,
+            "failure": 0
+          }
+        ],
+        "selected_start_counts": [
+          341,
+          307,
+          276,
+          283,
+          293
+        ],
+        "no_finite_cost_count": 0
+      },
+      "center_prediction_max_absolute_difference_from_archive": 0.0,
+      "arrays_path": "runs/sparse_multistart/condition_0_0.npz",
+      "arrays_sha256": "eeec4364b10e64e81cdb63a1c2b7b3f5cf3913fdfe9e3bc7b2ecd1e9552ba061"
+    },
+    {
+      "level": 0.1,
+      "realization": 0,
+      "full_sha256": "aa1703f36180d69e98a35fa39fd0f0a2a42e6a8f3cb573f1ef736a75f7811cec",
+      "selected_sha256": "d97d19bdd79b0789356004c5dcc0aff079a2bb870257906fdc7bbb3c226f6faa",
+      "historical_single": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.01323033780638204,
+              "mean": 0.23369101936531458,
+              "p95": 0.47420963832744834,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 0.018484457715528115,
+              "mean": 0.15646840623841987,
+              "p95": 0.5480425549381513,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 0.015218411223095783,
+              "mean": 0.06208715846276115,
+              "p95": 0.318040557480389,
+              "max": 1.3893751377329575
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 269,
+            "rate": 0.17933333333333334
+          },
+          "any_gt_50_percent": {
+            "count": 97,
+            "rate": 0.06466666666666666
+          }
+        },
+        "historical_timing": {
+          "median_seconds": 0.0016339374706149101,
+          "mean_seconds": 0.0018726576662932834,
+          "p95_seconds": 0.0033879853785037987,
+          "max_seconds": 0.011936833034269512,
+          "total_seconds": 2.808986499439925
+        },
+        "solver": {
+          "status_counts": {
+            "1": 12,
+            "2": 1474,
+            "3": 9,
+            "4": 5
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "new_center": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.01323033780638204,
+              "mean": 0.23369101936531458,
+              "p95": 0.47420963832744834,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 0.018484457715528115,
+              "mean": 0.15646840623841987,
+              "p95": 0.5480425549381513,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 0.015218411223095783,
+              "mean": 0.06208715846276115,
+              "p95": 0.318040557480389,
+              "max": 1.3893751377329575
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 269,
+            "rate": 0.17933333333333334
+          },
+          "any_gt_50_percent": {
+            "count": 97,
+            "rate": 0.06466666666666666
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.0016404165071435273,
+          "mean_seconds": 0.001882561316092809,
+          "p95_seconds": 0.0033855454879812893,
+          "max_seconds": 0.011756583000533283,
+          "total_seconds": 2.8238419741392136
+        },
+        "solver": {
+          "status_counts": {
+            "1": 12,
+            "2": 1474,
+            "3": 9,
+            "4": 5
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "full5": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.012883260947260892,
+              "mean": 0.045440944600701264,
+              "p95": 0.2227182519464507,
+              "max": 1.3179642362757646
+            },
+            "inductance_h": {
+              "median": 0.017695777795647752,
+              "mean": 0.0622546250569112,
+              "p95": 0.30253520655390626,
+              "max": 1.8817579286034412
+            },
+            "capacitance_f": {
+              "median": 0.014749678395736838,
+              "mean": 0.05434602870780154,
+              "p95": 0.2642277576796695,
+              "max": 1.389374975150935
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 227,
+            "rate": 0.15133333333333332
+          },
+          "any_gt_50_percent": {
+            "count": 46,
+            "rate": 0.030666666666666665
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.00895218801451847,
+          "mean_seconds": 0.009947617295042921,
+          "p95_seconds": 0.016227991401683534,
+          "max_seconds": 0.03722737496718764,
+          "total_seconds": 14.921425942564383
+        },
+        "selected_solver": {
+          "status_counts": {
+            "2": 1473,
+            "3": 15,
+            "4": 12
+          },
+          "success": 1500,
+          "failure": 0
+        },
+        "all_starts_solver": {
+          "status_counts": {
+            "1": 38,
+            "2": 7391,
+            "3": 42,
+            "4": 29
+          },
+          "success": 7500,
+          "failure": 0
+        },
+        "per_start_solver": [
+          {
+            "status_counts": {
+              "1": 12,
+              "2": 1474,
+              "3": 9,
+              "4": 5
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 14,
+              "2": 1473,
+              "3": 7,
+              "4": 6
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 12,
+              "2": 1475,
+              "3": 8,
+              "4": 5
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "2": 1484,
+              "3": 8,
+              "4": 8
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "2": 1485,
+              "3": 10,
+              "4": 5
+            },
+            "success": 1500,
+            "failure": 0
+          }
+        ],
+        "selected_start_counts": [
+          328,
+          343,
+          285,
+          264,
+          280
+        ],
+        "no_finite_cost_count": 0
+      },
+      "center_prediction_max_absolute_difference_from_archive": 0.0,
+      "arrays_path": "runs/sparse_multistart/condition_4_0.npz",
+      "arrays_sha256": "7b8db1c273ea2ca2df5411ca1471fa992a608afad9b343a5902fadadbbb3dcc5"
+    },
+    {
+      "level": 0.1,
+      "realization": 1,
+      "full_sha256": "c4a2b93dc01783a12d2227775ecc6431f3a76a9c09070c886b259d16ed8683d6",
+      "selected_sha256": "d4fc20154f7c801e06562a7c2ed7087ff4805b742ed1eb8eefddd79cede03f25",
+      "historical_single": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.013265522739578029,
+              "mean": 0.22295495138601493,
+              "p95": 0.46576176582626394,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 0.01876259794658496,
+              "mean": 0.15123223024339355,
+              "p95": 0.5452164575940275,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 0.016040015752979354,
+              "mean": 0.060517367701103005,
+              "p95": 0.35197519771447927,
+              "max": 1.1550052638791632
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 256,
+            "rate": 0.17066666666666666
+          },
+          "any_gt_50_percent": {
+            "count": 99,
+            "rate": 0.066
+          }
+        },
+        "historical_timing": {
+          "median_seconds": 0.0016271669883280993,
+          "mean_seconds": 0.0018620933409159383,
+          "p95_seconds": 0.003388166037620976,
+          "max_seconds": 0.008951499941758811,
+          "total_seconds": 2.7931400113739073
+        },
+        "solver": {
+          "status_counts": {
+            "1": 8,
+            "2": 1470,
+            "3": 14,
+            "4": 8
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "new_center": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.013265522739578029,
+              "mean": 0.22295495138601493,
+              "p95": 0.46576176582626394,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 0.01876259794658496,
+              "mean": 0.15123223024339355,
+              "p95": 0.5452164575940275,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 0.016040015752979354,
+              "mean": 0.060517367701103005,
+              "p95": 0.35197519771447927,
+              "max": 1.1550052638791632
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 256,
+            "rate": 0.17066666666666666
+          },
+          "any_gt_50_percent": {
+            "count": 99,
+            "rate": 0.066
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.0016558750066906214,
+          "mean_seconds": 0.0019115755426076552,
+          "p95_seconds": 0.003490887186489999,
+          "max_seconds": 0.009274833020754158,
+          "total_seconds": 2.8673633139114827
+        },
+        "solver": {
+          "status_counts": {
+            "1": 8,
+            "2": 1470,
+            "3": 14,
+            "4": 8
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "full5": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.012743050944638009,
+              "mean": 0.04639214601666089,
+              "p95": 0.24070730536762122,
+              "max": 1.6719456143110218
+            },
+            "inductance_h": {
+              "median": 0.017683551559633883,
+              "mean": 0.06264766802788277,
+              "p95": 0.31630939298350946,
+              "max": 1.567190496967042
+            },
+            "capacitance_f": {
+              "median": 0.0156481292063038,
+              "mean": 0.053075411100082834,
+              "p95": 0.2865088490196054,
+              "max": 1.1550010332843763
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 213,
+            "rate": 0.142
+          },
+          "any_gt_50_percent": {
+            "count": 51,
+            "rate": 0.034
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.009048354520928115,
+          "mean_seconds": 0.010157064036776622,
+          "p95_seconds": 0.01664236033684574,
+          "max_seconds": 0.07750595803372562,
+          "total_seconds": 15.235596055164933
+        },
+        "selected_solver": {
+          "status_counts": {
+            "2": 1465,
+            "3": 24,
+            "4": 11
+          },
+          "success": 1500,
+          "failure": 0
+        },
+        "all_starts_solver": {
+          "status_counts": {
+            "1": 30,
+            "2": 7377,
+            "3": 49,
+            "4": 44
+          },
+          "success": 7500,
+          "failure": 0
+        },
+        "per_start_solver": [
+          {
+            "status_counts": {
+              "1": 8,
+              "2": 1470,
+              "3": 14,
+              "4": 8
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 14,
+              "2": 1465,
+              "3": 11,
+              "4": 10
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 8,
+              "2": 1480,
+              "3": 6,
+              "4": 6
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "2": 1485,
+              "3": 7,
+              "4": 8
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "2": 1477,
+              "3": 11,
+              "4": 12
+            },
+            "success": 1500,
+            "failure": 0
+          }
+        ],
+        "selected_start_counts": [
+          322,
+          319,
+          290,
+          281,
+          288
+        ],
+        "no_finite_cost_count": 0
+      },
+      "center_prediction_max_absolute_difference_from_archive": 0.0,
+      "arrays_path": "runs/sparse_multistart/condition_4_1.npz",
+      "arrays_sha256": "903f0fca646ae2271c939ab761e6627aa78601b34700fa14506f6b76b8b8d5b5"
+    },
+    {
+      "level": 0.1,
+      "realization": 2,
+      "full_sha256": "fe7ae4f4ceaac3b87533d75e00b9455a3d7c440e670130ea38307a98faf32465",
+      "selected_sha256": "25978364b1e7f0e93a8183aa055ad1d3de050e612351add883d6a0772fed7d20",
+      "historical_single": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.013317220767107578,
+              "mean": 0.2300774539122385,
+              "p95": 0.4920514599338476,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 0.018254052772640163,
+              "mean": 0.15467179848729012,
+              "p95": 0.5686951104988069,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 0.01581990564647876,
+              "mean": 0.06123789819611907,
+              "p95": 0.3204492229888265,
+              "max": 1.3532388302571485
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 260,
+            "rate": 0.17333333333333334
+          },
+          "any_gt_50_percent": {
+            "count": 107,
+            "rate": 0.07133333333333333
+          }
+        },
+        "historical_timing": {
+          "median_seconds": 0.0016285834717564285,
+          "mean_seconds": 0.0018653646822397907,
+          "p95_seconds": 0.003311504202429204,
+          "max_seconds": 0.012066708062775433,
+          "total_seconds": 2.798047023359686
+        },
+        "solver": {
+          "status_counts": {
+            "1": 15,
+            "2": 1469,
+            "3": 7,
+            "4": 9
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "new_center": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.013317220767107578,
+              "mean": 0.2300774539122385,
+              "p95": 0.4920514599338476,
+              "max": 8.793996177163358
+            },
+            "inductance_h": {
+              "median": 0.018254052772640163,
+              "mean": 0.15467179848729012,
+              "p95": 0.5686951104988069,
+              "max": 3.9643660024255274
+            },
+            "capacitance_f": {
+              "median": 0.01581990564647876,
+              "mean": 0.06123789819611907,
+              "p95": 0.3204492229888265,
+              "max": 1.3532388302571485
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 260,
+            "rate": 0.17333333333333334
+          },
+          "any_gt_50_percent": {
+            "count": 107,
+            "rate": 0.07133333333333333
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.0016624995041638613,
+          "mean_seconds": 0.0019133902561540405,
+          "p95_seconds": 0.003376191656570881,
+          "max_seconds": 0.012330292025581002,
+          "total_seconds": 2.8700853842310607
+        },
+        "solver": {
+          "status_counts": {
+            "1": 15,
+            "2": 1469,
+            "3": 7,
+            "4": 9
+          },
+          "success": 1500,
+          "failure": 0
+        }
+      },
+      "full5": {
+        "accuracy": {
+          "count": 1500,
+          "component_relative_error": {
+            "resistance_ohm": {
+              "median": 0.01267833824621745,
+              "mean": 0.04495079112052554,
+              "p95": 0.23068460958416903,
+              "max": 1.3671442067662456
+            },
+            "inductance_h": {
+              "median": 0.017355028131722433,
+              "mean": 0.06131491915506579,
+              "p95": 0.31165207627376906,
+              "max": 1.5113238073621804
+            },
+            "capacitance_f": {
+              "median": 0.015512044684851404,
+              "mean": 0.05321447593347972,
+              "p95": 0.26236806556202813,
+              "max": 1.3532387364608924
+            }
+          },
+          "any_gt_10_percent": {
+            "count": 217,
+            "rate": 0.14466666666666667
+          },
+          "any_gt_50_percent": {
+            "count": 56,
+            "rate": 0.037333333333333336
+          }
+        },
+        "new_timing": {
+          "median_seconds": 0.009058562514837831,
+          "mean_seconds": 0.010120314338166887,
+          "p95_seconds": 0.016282074287300927,
+          "max_seconds": 0.03324320795945823,
+          "total_seconds": 15.180471507250331
+        },
+        "selected_solver": {
+          "status_counts": {
+            "2": 1470,
+            "3": 15,
+            "4": 15
+          },
+          "success": 1500,
+          "failure": 0
+        },
+        "all_starts_solver": {
+          "status_counts": {
+            "1": 46,
+            "2": 7361,
+            "3": 50,
+            "4": 43
+          },
+          "success": 7500,
+          "failure": 0
+        },
+        "per_start_solver": [
+          {
+            "status_counts": {
+              "1": 15,
+              "2": 1469,
+              "3": 7,
+              "4": 9
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 17,
+              "2": 1467,
+              "3": 7,
+              "4": 9
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 13,
+              "2": 1468,
+              "3": 11,
+              "4": 8
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "1": 1,
+              "2": 1479,
+              "3": 11,
+              "4": 9
+            },
+            "success": 1500,
+            "failure": 0
+          },
+          {
+            "status_counts": {
+              "2": 1478,
+              "3": 14,
+              "4": 8
+            },
+            "success": 1500,
+            "failure": 0
+          }
+        ],
+        "selected_start_counts": [
+          362,
+          342,
+          251,
+          281,
+          264
+        ],
+        "no_finite_cost_count": 0
+      },
+      "center_prediction_max_absolute_difference_from_archive": 0.0,
+      "arrays_path": "runs/sparse_multistart/condition_4_2.npz",
+      "arrays_sha256": "16657cbf1a7cba6f928843181930f108be082da1e58724ceb83330f75e26e714"
+    }
+  ],
+  "completed_conditions": 4,
+  "pooled_10_percent": {
+    "historical_single": {
+      "accuracy": {
+        "count": 4500,
+        "component_relative_error": {
+          "resistance_ohm": {
+            "median": 0.013271097290942405,
+            "mean": 0.22890780822118934,
+            "p95": 0.4836690342946871,
+            "max": 8.793996177163358
+          },
+          "inductance_h": {
+            "median": 0.018448005155186426,
+            "mean": 0.15412414498970117,
+            "p95": 0.5578515926034913,
+            "max": 3.9643660024255274
+          },
+          "capacitance_f": {
+            "median": 0.01575512478063685,
+            "mean": 0.061280808119994416,
+            "p95": 0.3371065185732837,
+            "max": 1.3893751377329575
+          }
+        },
+        "any_gt_10_percent": {
+          "count": 785,
+          "rate": 0.17444444444444446
+        },
+        "any_gt_50_percent": {
+          "count": 303,
+          "rate": 0.06733333333333333
+        }
+      },
+      "historical_timing": {
+        "median_seconds": 0.0016295205568894744,
+        "mean_seconds": 0.0018667052298163374,
+        "p95_seconds": 0.003368229209445417,
+        "max_seconds": 0.012066708062775433,
+        "total_seconds": 8.400173534173518
+      },
+      "solver": {
+        "status_counts": {
+          "1": 35,
+          "2": 4413,
+          "3": 30,
+          "4": 22
+        },
+        "success": 4500,
+        "failure": 0
+      }
+    },
+    "new_center": {
+      "accuracy": {
+        "count": 4500,
+        "component_relative_error": {
+          "resistance_ohm": {
+            "median": 0.013271097290942405,
+            "mean": 0.22890780822118934,
+            "p95": 0.4836690342946871,
+            "max": 8.793996177163358
+          },
+          "inductance_h": {
+            "median": 0.018448005155186426,
+            "mean": 0.15412414498970117,
+            "p95": 0.5578515926034913,
+            "max": 3.9643660024255274
+          },
+          "capacitance_f": {
+            "median": 0.01575512478063685,
+            "mean": 0.061280808119994416,
+            "p95": 0.3371065185732837,
+            "max": 1.3893751377329575
+          }
+        },
+        "any_gt_10_percent": {
+          "count": 785,
+          "rate": 0.17444444444444446
+        },
+        "any_gt_50_percent": {
+          "count": 303,
+          "rate": 0.06733333333333333
+        }
+      },
+      "new_timing": {
+        "median_seconds": 0.001651728991419077,
+        "mean_seconds": 0.0019025090382848349,
+        "p95_seconds": 0.0034184146090410665,
+        "max_seconds": 0.012330292025581002,
+        "total_seconds": 8.561290672281757
+      },
+      "solver": {
+        "status_counts": {
+          "1": 35,
+          "2": 4413,
+          "3": 30,
+          "4": 22
+        },
+        "success": 4500,
+        "failure": 0
+      }
+    },
+    "full5": {
+      "accuracy": {
+        "count": 4500,
+        "component_relative_error": {
+          "resistance_ohm": {
+            "median": 0.012787768882837277,
+            "mean": 0.04559462724596256,
+            "p95": 0.23902220354622755,
+            "max": 1.6719456143110218
+          },
+          "inductance_h": {
+            "median": 0.01757412768484647,
+            "mean": 0.06207240407995326,
+            "p95": 0.3115152452809351,
+            "max": 1.8817579286034412
+          },
+          "capacitance_f": {
+            "median": 0.015290887385146341,
+            "mean": 0.053545305247121366,
+            "p95": 0.26865601113251397,
+            "max": 1.389374975150935
+          }
+        },
+        "any_gt_10_percent": {
+          "count": 657,
+          "rate": 0.146
+        },
+        "any_gt_50_percent": {
+          "count": 153,
+          "rate": 0.034
+        }
+      },
+      "new_timing": {
+        "median_seconds": 0.009011771006044,
+        "mean_seconds": 0.010074998556662143,
+        "p95_seconds": 0.01632921872660518,
+        "max_seconds": 0.07750595803372562,
+        "total_seconds": 45.33749350497965
+      },
+      "selected_solver": {
+        "status_counts": {
+          "2": 4408,
+          "3": 54,
+          "4": 38
+        },
+        "success": 4500,
+        "failure": 0
+      },
+      "all_starts_solver": {
+        "status_counts": {
+          "1": 114,
+          "2": 22129,
+          "3": 141,
+          "4": 116
+        },
+        "success": 22500,
+        "failure": 0
+      },
+      "per_start_solver": [
+        {
+          "status_counts": {
+            "1": 35,
+            "2": 4413,
+            "3": 30,
+            "4": 22
+          },
+          "success": 4500,
+          "failure": 0
+        },
+        {
+          "status_counts": {
+            "1": 45,
+            "2": 4405,
+            "3": 25,
+            "4": 25
+          },
+          "success": 4500,
+          "failure": 0
+        },
+        {
+          "status_counts": {
+            "1": 33,
+            "2": 4423,
+            "3": 25,
+            "4": 19
+          },
+          "success": 4500,
+          "failure": 0
+        },
+        {
+          "status_counts": {
+            "1": 1,
+            "2": 4448,
+            "3": 26,
+            "4": 25
+          },
+          "success": 4500,
+          "failure": 0
+        },
+        {
+          "status_counts": {
+            "2": 4440,
+            "3": 35,
+            "4": 25
+          },
+          "success": 4500,
+          "failure": 0
+        }
+      ],
+      "selected_start_counts": [
+        1012,
+        1004,
+        826,
+        826,
+        832
+      ],
+      "no_finite_cost_count": 0
+    },
+    "center_prediction_max_absolute_difference_from_archive": 0.0
+  },
+  "wall_seconds": 60.49616954207886
+}

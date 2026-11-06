@@ -1,0 +1,1680 @@
+{
+  "models": {
+    "clean_20261014": {
+      "checkpoint_sha256": "3d0c0905eee04fbeca300b632dfff2fbc853aaa55f95cf889787e34365e5cce0",
+      "conditions": [
+        {
+          "level": 0.15,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10168055787133551,
+              "mean": 0.1456627538868715,
+              "p95": 0.41884372721654545,
+              "max": 1.4781416367015359
+            },
+            "inductance_h": {
+              "median": 0.04719141928810132,
+              "mean": 0.0623963911115092,
+              "p95": 0.17065936808259088,
+              "max": 0.3320669593245255
+            },
+            "capacitance_f": {
+              "median": 0.06939006184041477,
+              "mean": 0.1010192777696103,
+              "p95": 0.30237406436171427,
+              "max": 0.7303606270390386
+            },
+            "any_gt10": 0.5886666666666667,
+            "any_gt50": 0.035333333333333335
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "f13aaad7c857291238a6f6ebc7aea7cb4efe10fb0e7a9613e48fc9230cff4205",
+            "input": "8089a90b37a34e89cc38753428670cc6d7cf9537d81e65a379f690c6d1e10f4f"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10602623226068145,
+              "mean": 0.1523985438723021,
+              "p95": 0.4640353740801695,
+              "max": 1.6095943095151297
+            },
+            "inductance_h": {
+              "median": 0.04893963456691586,
+              "mean": 0.06447220218608375,
+              "p95": 0.17575497739722945,
+              "max": 0.39297644646315305
+            },
+            "capacitance_f": {
+              "median": 0.06965958319758744,
+              "mean": 0.10326563028688383,
+              "p95": 0.31371016539564545,
+              "max": 1.1009193804330157
+            },
+            "any_gt10": 0.5993333333333334,
+            "any_gt50": 0.048666666666666664
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "dd0ed9a7b601e4e586f9a4c9722edadce16811d70a2111bbde1ecc775e5c1fc3",
+            "input": "0ef2fac8e9d729c40773930a5ecfaffa085f4403eb3457c6a2f789d3b0050380"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10240320800710297,
+              "mean": 0.15077201648588862,
+              "p95": 0.45139033297995146,
+              "max": 2.530217696065092
+            },
+            "inductance_h": {
+              "median": 0.05010897404892885,
+              "mean": 0.06517012504533587,
+              "p95": 0.17918403415887363,
+              "max": 0.7543314906819281
+            },
+            "capacitance_f": {
+              "median": 0.06666641450373335,
+              "mean": 0.10204233410336487,
+              "p95": 0.31143510911371164,
+              "max": 0.8112601230959208
+            },
+            "any_gt10": 0.584,
+            "any_gt50": 0.043333333333333335
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "06b076599d20f0158cf05c2c53b1faefa1395dc50eb06ffe0a62dbc18ed9a516",
+            "input": "330659dc1f3588053383273e8c26330f7347e25e9bacb1e4f90fbe4116f1e688"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.13514140278551282,
+              "mean": 0.19891512875504097,
+              "p95": 0.5876037594221069,
+              "max": 2.7732303413396537
+            },
+            "inductance_h": {
+              "median": 0.06169046448926936,
+              "mean": 0.08185515647194365,
+              "p95": 0.2257005554306575,
+              "max": 0.4643376035372091
+            },
+            "capacitance_f": {
+              "median": 0.08958174318039216,
+              "mean": 0.13202816631049982,
+              "p95": 0.39684310168061054,
+              "max": 0.9486701860944662
+            },
+            "any_gt10": 0.7026666666666667,
+            "any_gt50": 0.082
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "26732cc940223d76f846d96eb0185d274b7fd8430cba7d9d398efb642ed756fb",
+            "input": "3b20bb215a5573f09c3ce033db0159bd1c21dff6db8fcae0d0ce851324491d51"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.13846412659921553,
+              "mean": 0.20874866263575412,
+              "p95": 0.6608493421619936,
+              "max": 2.4711451308787296
+            },
+            "inductance_h": {
+              "median": 0.06432153534833229,
+              "mean": 0.08467564134537446,
+              "p95": 0.22982942690285058,
+              "max": 0.5382821080004718
+            },
+            "capacitance_f": {
+              "median": 0.09355830526666797,
+              "mean": 0.13589156648356626,
+              "p95": 0.4096682577427032,
+              "max": 1.4632608654717585
+            },
+            "any_gt10": 0.7046666666666667,
+            "any_gt50": 0.096
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "e538975a4e27f0cf4cbd0d94e6a6347108404879079b56ed408f687546ac3d1b",
+            "input": "a67cf3062e96bfeb17b4f8767dbfb02441202be132406c7fee7af4f748a4dcdb"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.13534795547570583,
+              "mean": 0.20715058346133058,
+              "p95": 0.6372696628827804,
+              "max": 4.486930801730427
+            },
+            "inductance_h": {
+              "median": 0.06514276906210273,
+              "mean": 0.08554680025820244,
+              "p95": 0.23838386891503346,
+              "max": 1.0853492579589574
+            },
+            "capacitance_f": {
+              "median": 0.088222183737576,
+              "mean": 0.1340424343990759,
+              "p95": 0.409128155862127,
+              "max": 0.954312108265995
+            },
+            "any_gt10": 0.6926666666666667,
+            "any_gt50": 0.092
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "e73e17c7198a1e66a3ef6eaff908dfee2ff509ea97059817f7843e638dc72061",
+            "input": "51ddbc8cd8bbc9bc6d8980a6ce968558a11a15bccacb918e1bfb1e90899f2cee"
+          }
+        }
+      ],
+      "predictions_path": "runs/noise_extrapolation/clean_20261014_predictions.npz",
+      "predictions_sha256": "b16411d9fc38d08c82e597a4d62e1f6e0712c7cf3faad4e4de3133d7ec638344"
+    },
+    "augmented_20261014": {
+      "checkpoint_sha256": "42cf2cf90dae6ca5c88fe59ce52c6b1bb2523d5d4e1c36abfe26dca46119f494",
+      "conditions": [
+        {
+          "level": 0.15,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.042741023088780944,
+              "mean": 0.053798543240122496,
+              "p95": 0.13849571586385356,
+              "max": 0.34437583394445703
+            },
+            "inductance_h": {
+              "median": 0.031469646622534,
+              "mean": 0.03977779969567281,
+              "p95": 0.10168361642581457,
+              "max": 0.27548004261806003
+            },
+            "capacitance_f": {
+              "median": 0.03301768993616579,
+              "mean": 0.04088230857588292,
+              "p95": 0.10733077340856371,
+              "max": 0.24781178468607884
+            },
+            "any_gt10": 0.21133333333333335,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "f13aaad7c857291238a6f6ebc7aea7cb4efe10fb0e7a9613e48fc9230cff4205",
+            "input": "8089a90b37a34e89cc38753428670cc6d7cf9537d81e65a379f690c6d1e10f4f"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.04169126661253798,
+              "mean": 0.05240286447184053,
+              "p95": 0.13980069504227646,
+              "max": 0.2918081258733297
+            },
+            "inductance_h": {
+              "median": 0.031811331427435405,
+              "mean": 0.03893842064205229,
+              "p95": 0.0997989854220999,
+              "max": 0.2289050542779228
+            },
+            "capacitance_f": {
+              "median": 0.032607877367837136,
+              "mean": 0.04001255096563846,
+              "p95": 0.10434730854804594,
+              "max": 0.21942057263179732
+            },
+            "any_gt10": 0.19933333333333333,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "dd0ed9a7b601e4e586f9a4c9722edadce16811d70a2111bbde1ecc775e5c1fc3",
+            "input": "0ef2fac8e9d729c40773930a5ecfaffa085f4403eb3457c6a2f789d3b0050380"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.04402307623140288,
+              "mean": 0.05603491161909806,
+              "p95": 0.14590329297087434,
+              "max": 0.28821182057168154
+            },
+            "inductance_h": {
+              "median": 0.029899802110472162,
+              "mean": 0.03854002149423886,
+              "p95": 0.10049909411408176,
+              "max": 0.2714835636027052
+            },
+            "capacitance_f": {
+              "median": 0.03217625381999668,
+              "mean": 0.040235581949215726,
+              "p95": 0.10869154078730393,
+              "max": 0.1872561401609075
+            },
+            "any_gt10": 0.22266666666666668,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "06b076599d20f0158cf05c2c53b1faefa1395dc50eb06ffe0a62dbc18ed9a516",
+            "input": "330659dc1f3588053383273e8c26330f7347e25e9bacb1e4f90fbe4116f1e688"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.0550252771463826,
+              "mean": 0.07042625883255224,
+              "p95": 0.18044748835859095,
+              "max": 0.4944520075599399
+            },
+            "inductance_h": {
+              "median": 0.04110650354814009,
+              "mean": 0.05175455333863408,
+              "p95": 0.13058352903779527,
+              "max": 0.38684567974109263
+            },
+            "capacitance_f": {
+              "median": 0.04231475650532557,
+              "mean": 0.0530490909476547,
+              "p95": 0.14287467592570982,
+              "max": 0.33158887761329847
+            },
+            "any_gt10": 0.37866666666666665,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "26732cc940223d76f846d96eb0185d274b7fd8430cba7d9d398efb642ed756fb",
+            "input": "3b20bb215a5573f09c3ce033db0159bd1c21dff6db8fcae0d0ce851324491d51"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.055153677974799864,
+              "mean": 0.06914235344114168,
+              "p95": 0.1865844654520175,
+              "max": 0.3932905744966792
+            },
+            "inductance_h": {
+              "median": 0.04172042087328334,
+              "mean": 0.051225352638466226,
+              "p95": 0.13079911946962297,
+              "max": 0.2967736114703549
+            },
+            "capacitance_f": {
+              "median": 0.04267309974632069,
+              "mean": 0.05219945082550951,
+              "p95": 0.13821484471925116,
+              "max": 0.2956437445017766
+            },
+            "any_gt10": 0.37666666666666665,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "e538975a4e27f0cf4cbd0d94e6a6347108404879079b56ed408f687546ac3d1b",
+            "input": "a67cf3062e96bfeb17b4f8767dbfb02441202be132406c7fee7af4f748a4dcdb"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.05751629247478389,
+              "mean": 0.07320910681214837,
+              "p95": 0.19539821616192637,
+              "max": 0.3597670833888665
+            },
+            "inductance_h": {
+              "median": 0.03913185949303752,
+              "mean": 0.05030995644660392,
+              "p95": 0.13093166647452673,
+              "max": 0.3461791973742896
+            },
+            "capacitance_f": {
+              "median": 0.040231275691660906,
+              "mean": 0.05243030536172939,
+              "p95": 0.14023688114655916,
+              "max": 0.25273256577160175
+            },
+            "any_gt10": 0.392,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "e73e17c7198a1e66a3ef6eaff908dfee2ff509ea97059817f7843e638dc72061",
+            "input": "51ddbc8cd8bbc9bc6d8980a6ce968558a11a15bccacb918e1bfb1e90899f2cee"
+          }
+        }
+      ],
+      "predictions_path": "runs/noise_extrapolation/augmented_20261014_predictions.npz",
+      "predictions_sha256": "a7f42b77aec66e9318d3ae59b8eeebe8d9aaae9b08647e0e75a35dc0dca239be"
+    },
+    "clean_20261015": {
+      "checkpoint_sha256": "22c7700a2b48fef6ddeed1bd5c3ac20b7494a348eb713665a9e884f0ec5de79f",
+      "conditions": [
+        {
+          "level": 0.15,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10385014597843521,
+              "mean": 0.1474043465966765,
+              "p95": 0.4028225693107507,
+              "max": 1.5316534544992082
+            },
+            "inductance_h": {
+              "median": 0.043653112202805884,
+              "mean": 0.0593541502665073,
+              "p95": 0.16037817563628004,
+              "max": 0.3483876518301662
+            },
+            "capacitance_f": {
+              "median": 0.06379134084796168,
+              "mean": 0.09684792625800563,
+              "p95": 0.2982715477115237,
+              "max": 0.7443246004771537
+            },
+            "any_gt10": 0.5886666666666667,
+            "any_gt50": 0.032
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "f13aaad7c857291238a6f6ebc7aea7cb4efe10fb0e7a9613e48fc9230cff4205",
+            "input": "8089a90b37a34e89cc38753428670cc6d7cf9537d81e65a379f690c6d1e10f4f"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10769367496260354,
+              "mean": 0.15302915639613218,
+              "p95": 0.46478143391829896,
+              "max": 1.387308426004979
+            },
+            "inductance_h": {
+              "median": 0.047474309875040366,
+              "mean": 0.06100340577845543,
+              "p95": 0.16756427665467769,
+              "max": 0.42056511486319054
+            },
+            "capacitance_f": {
+              "median": 0.06755146487946603,
+              "mean": 0.10182206845729803,
+              "p95": 0.31470101117792965,
+              "max": 0.9331406920706965
+            },
+            "any_gt10": 0.6006666666666667,
+            "any_gt50": 0.050666666666666665
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "dd0ed9a7b601e4e586f9a4c9722edadce16811d70a2111bbde1ecc775e5c1fc3",
+            "input": "0ef2fac8e9d729c40773930a5ecfaffa085f4403eb3457c6a2f789d3b0050380"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.1062323824399811,
+              "mean": 0.1498590154966415,
+              "p95": 0.4369549836695983,
+              "max": 2.0894832491926
+            },
+            "inductance_h": {
+              "median": 0.04713016446366275,
+              "mean": 0.06239293529274014,
+              "p95": 0.17210186831929794,
+              "max": 0.6638919763276138
+            },
+            "capacitance_f": {
+              "median": 0.06096375568918386,
+              "mean": 0.09746654493002282,
+              "p95": 0.3046804609269149,
+              "max": 0.9601671755953302
+            },
+            "any_gt10": 0.592,
+            "any_gt50": 0.04133333333333333
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "06b076599d20f0158cf05c2c53b1faefa1395dc50eb06ffe0a62dbc18ed9a516",
+            "input": "330659dc1f3588053383273e8c26330f7347e25e9bacb1e4f90fbe4116f1e688"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.13342110946798036,
+              "mean": 0.19976125654146376,
+              "p95": 0.5633736906349821,
+              "max": 2.602984084794995
+            },
+            "inductance_h": {
+              "median": 0.057703555739266374,
+              "mean": 0.07796312362335914,
+              "p95": 0.21307852195450244,
+              "max": 0.48263393226875667
+            },
+            "capacitance_f": {
+              "median": 0.08430610986166272,
+              "mean": 0.12668667889818805,
+              "p95": 0.3937524429828843,
+              "max": 0.9619413891936318
+            },
+            "any_gt10": 0.6973333333333334,
+            "any_gt50": 0.078
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "26732cc940223d76f846d96eb0185d274b7fd8430cba7d9d398efb642ed756fb",
+            "input": "3b20bb215a5573f09c3ce033db0159bd1c21dff6db8fcae0d0ce851324491d51"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.14105015998950232,
+              "mean": 0.2082268269411681,
+              "p95": 0.649688847956853,
+              "max": 2.2103384925087988
+            },
+            "inductance_h": {
+              "median": 0.06236031622085589,
+              "mean": 0.08019958731250246,
+              "p95": 0.2210699013641559,
+              "max": 0.6081778385761701
+            },
+            "capacitance_f": {
+              "median": 0.08832592698157689,
+              "mean": 0.13292476214551532,
+              "p95": 0.40466162536487116,
+              "max": 1.1957641822555394
+            },
+            "any_gt10": 0.7,
+            "any_gt50": 0.09666666666666666
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "e538975a4e27f0cf4cbd0d94e6a6347108404879079b56ed408f687546ac3d1b",
+            "input": "a67cf3062e96bfeb17b4f8767dbfb02441202be132406c7fee7af4f748a4dcdb"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.1402802534825276,
+              "mean": 0.20400410287810442,
+              "p95": 0.6162439922924053,
+              "max": 3.6369903586821963
+            },
+            "inductance_h": {
+              "median": 0.060292469076152,
+              "mean": 0.08180363840279925,
+              "p95": 0.22588788630576506,
+              "max": 0.844378666180821
+            },
+            "capacitance_f": {
+              "median": 0.08065916471078034,
+              "mean": 0.12765031775338004,
+              "p95": 0.391404421659714,
+              "max": 1.2848068314902146
+            },
+            "any_gt10": 0.702,
+            "any_gt50": 0.09133333333333334
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "e73e17c7198a1e66a3ef6eaff908dfee2ff509ea97059817f7843e638dc72061",
+            "input": "51ddbc8cd8bbc9bc6d8980a6ce968558a11a15bccacb918e1bfb1e90899f2cee"
+          }
+        }
+      ],
+      "predictions_path": "runs/noise_extrapolation/clean_20261015_predictions.npz",
+      "predictions_sha256": "387ef92c399e588994e1262438968666af6b7eb8dc397152f7cd715259a5ef76"
+    },
+    "augmented_20261015": {
+      "checkpoint_sha256": "fddfbbca65d89c4e2911f5d59780a30d6ccdb7a3808bf30d32a3518e404a4d86",
+      "conditions": [
+        {
+          "level": 0.15,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.03911023615908227,
+              "mean": 0.04914754207382343,
+              "p95": 0.12358475978051978,
+              "max": 0.4227875288581453
+            },
+            "inductance_h": {
+              "median": 0.028546067752763166,
+              "mean": 0.03655862974272403,
+              "p95": 0.09539747079423586,
+              "max": 0.3927906553613707
+            },
+            "capacitance_f": {
+              "median": 0.029252633870637333,
+              "mean": 0.036404036366792646,
+              "p95": 0.09431082027667853,
+              "max": 0.23464659056865475
+            },
+            "any_gt10": 0.15866666666666668,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "f13aaad7c857291238a6f6ebc7aea7cb4efe10fb0e7a9613e48fc9230cff4205",
+            "input": "8089a90b37a34e89cc38753428670cc6d7cf9537d81e65a379f690c6d1e10f4f"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.04110403944226271,
+              "mean": 0.04822579792043074,
+              "p95": 0.12387619073506283,
+              "max": 0.3151892771459763
+            },
+            "inductance_h": {
+              "median": 0.029355788405854573,
+              "mean": 0.03591959338191438,
+              "p95": 0.09524854195739443,
+              "max": 0.21700745103450475
+            },
+            "capacitance_f": {
+              "median": 0.028968785102894586,
+              "mean": 0.036030002416080335,
+              "p95": 0.09651824121325675,
+              "max": 0.18726193680355044
+            },
+            "any_gt10": 0.14933333333333335,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "dd0ed9a7b601e4e586f9a4c9722edadce16811d70a2111bbde1ecc775e5c1fc3",
+            "input": "0ef2fac8e9d729c40773930a5ecfaffa085f4403eb3457c6a2f789d3b0050380"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.03882493065743757,
+              "mean": 0.04866138004856338,
+              "p95": 0.12929183128058508,
+              "max": 0.22982321448566428
+            },
+            "inductance_h": {
+              "median": 0.029641547100502978,
+              "mean": 0.037562955756699996,
+              "p95": 0.09810262388439395,
+              "max": 0.4358043518328394
+            },
+            "capacitance_f": {
+              "median": 0.02844829105430665,
+              "mean": 0.0360756262526621,
+              "p95": 0.0973011085521288,
+              "max": 0.20792904466236908
+            },
+            "any_gt10": 0.16066666666666668,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "06b076599d20f0158cf05c2c53b1faefa1395dc50eb06ffe0a62dbc18ed9a516",
+            "input": "330659dc1f3588053383273e8c26330f7347e25e9bacb1e4f90fbe4116f1e688"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.05050145795312466,
+              "mean": 0.06447633878056075,
+              "p95": 0.1639576393926242,
+              "max": 0.5184916830738655
+            },
+            "inductance_h": {
+              "median": 0.03754285566730779,
+              "mean": 0.047791878272182745,
+              "p95": 0.12462969001418313,
+              "max": 0.5387204610594024
+            },
+            "capacitance_f": {
+              "median": 0.038198298202977404,
+              "mean": 0.04742084452135962,
+              "p95": 0.12065542964514407,
+              "max": 0.30556236818701393
+            },
+            "any_gt10": 0.304,
+            "any_gt50": 0.0013333333333333333
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "26732cc940223d76f846d96eb0185d274b7fd8430cba7d9d398efb642ed756fb",
+            "input": "3b20bb215a5573f09c3ce033db0159bd1c21dff6db8fcae0d0ce851324491d51"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.054219279583474625,
+              "mean": 0.06327567941093774,
+              "p95": 0.16556791017488168,
+              "max": 0.4619395382150127
+            },
+            "inductance_h": {
+              "median": 0.03839424222359709,
+              "mean": 0.046893033653462986,
+              "p95": 0.12207809651906183,
+              "max": 0.31541891946028344
+            },
+            "capacitance_f": {
+              "median": 0.03783460949647686,
+              "mean": 0.046800875519515804,
+              "p95": 0.1253801237289188,
+              "max": 0.25676888428024325
+            },
+            "any_gt10": 0.30266666666666664,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "e538975a4e27f0cf4cbd0d94e6a6347108404879079b56ed408f687546ac3d1b",
+            "input": "a67cf3062e96bfeb17b4f8767dbfb02441202be132406c7fee7af4f748a4dcdb"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.050889477954119196,
+              "mean": 0.06374192293218786,
+              "p95": 0.16976517080653036,
+              "max": 0.2911524804645854
+            },
+            "inductance_h": {
+              "median": 0.03875273060797221,
+              "mean": 0.04911202689545363,
+              "p95": 0.12915415315303327,
+              "max": 0.5996725904576353
+            },
+            "capacitance_f": {
+              "median": 0.03593611350271015,
+              "mean": 0.0469599533788627,
+              "p95": 0.12790442852880132,
+              "max": 0.2800721668592875
+            },
+            "any_gt10": 0.32133333333333336,
+            "any_gt50": 0.0006666666666666666
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "e73e17c7198a1e66a3ef6eaff908dfee2ff509ea97059817f7843e638dc72061",
+            "input": "51ddbc8cd8bbc9bc6d8980a6ce968558a11a15bccacb918e1bfb1e90899f2cee"
+          }
+        }
+      ],
+      "predictions_path": "runs/noise_extrapolation/augmented_20261015_predictions.npz",
+      "predictions_sha256": "e244f90b75fe6fef839addae6bc4297296bf0dbe638d1f16fb8193c94c05614b"
+    },
+    "clean_20261016": {
+      "checkpoint_sha256": "81e9dc3c2759ad902609f518d9fb8d45e5cbe3ba9b1c111605a4c5db115794e8",
+      "conditions": [
+        {
+          "level": 0.15,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10269975066827586,
+              "mean": 0.14867959997538266,
+              "p95": 0.4105309060637726,
+              "max": 1.4764781266349647
+            },
+            "inductance_h": {
+              "median": 0.046124159091604805,
+              "mean": 0.06088578246236798,
+              "p95": 0.17589228694890982,
+              "max": 0.40154768708342226
+            },
+            "capacitance_f": {
+              "median": 0.06798767897642616,
+              "mean": 0.0991434803894673,
+              "p95": 0.31247936404427135,
+              "max": 0.7470909497847026
+            },
+            "any_gt10": 0.5726666666666667,
+            "any_gt50": 0.04066666666666666
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "f13aaad7c857291238a6f6ebc7aea7cb4efe10fb0e7a9613e48fc9230cff4205",
+            "input": "8089a90b37a34e89cc38753428670cc6d7cf9537d81e65a379f690c6d1e10f4f"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.10491659358206908,
+              "mean": 0.15329740882544057,
+              "p95": 0.45798742719801,
+              "max": 1.7443935475346213
+            },
+            "inductance_h": {
+              "median": 0.04754013170651768,
+              "mean": 0.06138979192905896,
+              "p95": 0.17055523194126995,
+              "max": 0.3661577267770908
+            },
+            "capacitance_f": {
+              "median": 0.06728854413620212,
+              "mean": 0.10096735910545498,
+              "p95": 0.3161594394432502,
+              "max": 0.8290958949744224
+            },
+            "any_gt10": 0.5773333333333334,
+            "any_gt50": 0.048666666666666664
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "dd0ed9a7b601e4e586f9a4c9722edadce16811d70a2111bbde1ecc775e5c1fc3",
+            "input": "0ef2fac8e9d729c40773930a5ecfaffa085f4403eb3457c6a2f789d3b0050380"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.1019964232249943,
+              "mean": 0.15538466778889365,
+              "p95": 0.47642959555283776,
+              "max": 3.2596604636963926
+            },
+            "inductance_h": {
+              "median": 0.04565409670714425,
+              "mean": 0.06193150497822506,
+              "p95": 0.17111518343907764,
+              "max": 0.8958975760941039
+            },
+            "capacitance_f": {
+              "median": 0.06455645834924674,
+              "mean": 0.10039818525426726,
+              "p95": 0.3171164692403812,
+              "max": 0.9421720807652311
+            },
+            "any_gt10": 0.5753333333333334,
+            "any_gt50": 0.05
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "06b076599d20f0158cf05c2c53b1faefa1395dc50eb06ffe0a62dbc18ed9a516",
+            "input": "330659dc1f3588053383273e8c26330f7347e25e9bacb1e4f90fbe4116f1e688"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.13407788255973013,
+              "mean": 0.2030572925934858,
+              "p95": 0.5880407094912242,
+              "max": 2.3516094752232286
+            },
+            "inductance_h": {
+              "median": 0.06112207601252807,
+              "mean": 0.08023643661411296,
+              "p95": 0.2271398742485186,
+              "max": 0.5635312337831807
+            },
+            "capacitance_f": {
+              "median": 0.090687011428961,
+              "mean": 0.13009290562212983,
+              "p95": 0.3981258355423524,
+              "max": 1.0256755383868021
+            },
+            "any_gt10": 0.6873333333333334,
+            "any_gt50": 0.084
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "26732cc940223d76f846d96eb0185d274b7fd8430cba7d9d398efb642ed756fb",
+            "input": "3b20bb215a5573f09c3ce033db0159bd1c21dff6db8fcae0d0ce851324491d51"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.13858702335181386,
+              "mean": 0.21076233706057745,
+              "p95": 0.6523169694103059,
+              "max": 2.745999658306881
+            },
+            "inductance_h": {
+              "median": 0.062250666839937546,
+              "mean": 0.08103404107783745,
+              "p95": 0.22645279849424801,
+              "max": 0.5244431831450002
+            },
+            "capacitance_f": {
+              "median": 0.08812323397522803,
+              "mean": 0.1328139165593074,
+              "p95": 0.4086615712834935,
+              "max": 1.0978910416046104
+            },
+            "any_gt10": 0.6926666666666667,
+            "any_gt50": 0.098
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "e538975a4e27f0cf4cbd0d94e6a6347108404879079b56ed408f687546ac3d1b",
+            "input": "a67cf3062e96bfeb17b4f8767dbfb02441202be132406c7fee7af4f748a4dcdb"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.134921712576724,
+              "mean": 0.2141120213259547,
+              "p95": 0.6648634914581905,
+              "max": 5.975822939262215
+            },
+            "inductance_h": {
+              "median": 0.05991266220995505,
+              "mean": 0.08165438499300727,
+              "p95": 0.21926536672935734,
+              "max": 1.301113012416409
+            },
+            "capacitance_f": {
+              "median": 0.08510860645828917,
+              "mean": 0.1318683013352836,
+              "p95": 0.41755188136751337,
+              "max": 1.2692892894917982
+            },
+            "any_gt10": 0.6893333333333334,
+            "any_gt50": 0.09733333333333333
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "e73e17c7198a1e66a3ef6eaff908dfee2ff509ea97059817f7843e638dc72061",
+            "input": "51ddbc8cd8bbc9bc6d8980a6ce968558a11a15bccacb918e1bfb1e90899f2cee"
+          }
+        }
+      ],
+      "predictions_path": "runs/noise_extrapolation/clean_20261016_predictions.npz",
+      "predictions_sha256": "a293b6cd2f8a12c157341630d6d8eae7d48a6185a818aad143e7f3db60e728a5"
+    },
+    "augmented_20261016": {
+      "checkpoint_sha256": "b170f63d20aa21478c3cab100f0942edd6a44223888e45f04a350e6f528509f7",
+      "conditions": [
+        {
+          "level": 0.15,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.034990505202043554,
+              "mean": 0.04429716948376968,
+              "p95": 0.11542813830966041,
+              "max": 0.2886474914768156
+            },
+            "inductance_h": {
+              "median": 0.0236428491876037,
+              "mean": 0.030594936697373867,
+              "p95": 0.0803678372375314,
+              "max": 0.2184648622294168
+            },
+            "capacitance_f": {
+              "median": 0.0257481930450984,
+              "mean": 0.03226478887711195,
+              "p95": 0.08668590505143517,
+              "max": 0.17187296045310307
+            },
+            "any_gt10": 0.11333333333333333,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "f13aaad7c857291238a6f6ebc7aea7cb4efe10fb0e7a9613e48fc9230cff4205",
+            "input": "8089a90b37a34e89cc38753428670cc6d7cf9537d81e65a379f690c6d1e10f4f"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.035496156973827436,
+              "mean": 0.045539714531243364,
+              "p95": 0.11902116343426361,
+              "max": 0.2394599936590193
+            },
+            "inductance_h": {
+              "median": 0.025125431781162118,
+              "mean": 0.03114267293667271,
+              "p95": 0.08398986405539509,
+              "max": 0.2506237256832544
+            },
+            "capacitance_f": {
+              "median": 0.025857383321142867,
+              "mean": 0.03235921016341454,
+              "p95": 0.08626407163155007,
+              "max": 0.16964008813909423
+            },
+            "any_gt10": 0.124,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "dd0ed9a7b601e4e586f9a4c9722edadce16811d70a2111bbde1ecc775e5c1fc3",
+            "input": "0ef2fac8e9d729c40773930a5ecfaffa085f4403eb3457c6a2f789d3b0050380"
+          }
+        },
+        {
+          "level": 0.15,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.03531646061096734,
+              "mean": 0.0437184080244977,
+              "p95": 0.1092521268457085,
+              "max": 0.3011996554853949
+            },
+            "inductance_h": {
+              "median": 0.02462474315252287,
+              "mean": 0.03130466788135521,
+              "p95": 0.08009982852448928,
+              "max": 0.20504048420718604
+            },
+            "capacitance_f": {
+              "median": 0.02377113695830175,
+              "mean": 0.03134160954501193,
+              "p95": 0.08536658996970843,
+              "max": 0.18684114515006336
+            },
+            "any_gt10": 0.104,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "06b076599d20f0158cf05c2c53b1faefa1395dc50eb06ffe0a62dbc18ed9a516",
+            "input": "330659dc1f3588053383273e8c26330f7347e25e9bacb1e4f90fbe4116f1e688"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 0,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.04641567252355529,
+              "mean": 0.05845134330162648,
+              "p95": 0.15305881100440075,
+              "max": 0.3320160749910801
+            },
+            "inductance_h": {
+              "median": 0.03194068644922733,
+              "mean": 0.04012988370155811,
+              "p95": 0.10716236067220201,
+              "max": 0.32255533788195073
+            },
+            "capacitance_f": {
+              "median": 0.03317722670808046,
+              "mean": 0.04207723260918321,
+              "p95": 0.11336637684551285,
+              "max": 0.22085939136967686
+            },
+            "any_gt10": 0.246,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "a4cdb03564441b8ab53eaaebf2f29c4161afad9eb5a323592b8c37dd07ddf688",
+            "perturbation": "26732cc940223d76f846d96eb0185d274b7fd8430cba7d9d398efb642ed756fb",
+            "input": "3b20bb215a5573f09c3ce033db0159bd1c21dff6db8fcae0d0ce851324491d51"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 1,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.04642226839766042,
+              "mean": 0.06015495902779114,
+              "p95": 0.15713331372785558,
+              "max": 0.3075079369469181
+            },
+            "inductance_h": {
+              "median": 0.033148565245487496,
+              "mean": 0.040945861674188413,
+              "p95": 0.10868350180390607,
+              "max": 0.3477817395701074
+            },
+            "capacitance_f": {
+              "median": 0.03367031225568061,
+              "mean": 0.04241001450953482,
+              "p95": 0.11079671102829998,
+              "max": 0.23660496442160628
+            },
+            "any_gt10": 0.2633333333333333,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "1326244c2c265fc89fbef28de913bb9b4084994426730ee10314101b616cdcda",
+            "perturbation": "e538975a4e27f0cf4cbd0d94e6a6347108404879079b56ed408f687546ac3d1b",
+            "input": "a67cf3062e96bfeb17b4f8767dbfb02441202be132406c7fee7af4f748a4dcdb"
+          }
+        },
+        {
+          "level": 0.2,
+          "realization": 2,
+          "metrics": {
+            "resistance_ohm": {
+              "median": 0.045867522863525974,
+              "mean": 0.05768414446722553,
+              "p95": 0.14467509469908166,
+              "max": 0.40949001158907883
+            },
+            "inductance_h": {
+              "median": 0.0326073469624619,
+              "mean": 0.04090102505206381,
+              "p95": 0.10665241151123327,
+              "max": 0.31062142907117635
+            },
+            "capacitance_f": {
+              "median": 0.030766952030495977,
+              "mean": 0.04058277455568367,
+              "p95": 0.10950233431264136,
+              "max": 0.2617279138929734
+            },
+            "any_gt10": 0.24066666666666667,
+            "any_gt50": 0.0
+          },
+          "hashes": {
+            "base_normals": "2a64a7514d0d156388fc98625d219492f73767633a4be31cc204cbc6412df8cb",
+            "perturbation": "e73e17c7198a1e66a3ef6eaff908dfee2ff509ea97059817f7843e638dc72061",
+            "input": "51ddbc8cd8bbc9bc6d8980a6ce968558a11a15bccacb918e1bfb1e90899f2cee"
+          }
+        }
+      ],
+      "predictions_path": "runs/noise_extrapolation/augmented_20261016_predictions.npz",
+      "predictions_sha256": "66d281d3faea7baa4270434406d6e1b577c7e31140df3db5c49cd20d6c53c69e"
+    }
+  },
+  "summary": {
+    "0.15": {
+      "clean": {
+        "resistance_ohm_median": {
+          "mean": 0.10416655211060877,
+          "sample_sd": 0.0015254606282480915,
+          "per_seed": {
+            "20261014": 0.10336999937970665,
+            "20261015": 0.10592540112700662,
+            "20261016": 0.10320425582511307
+          }
+        },
+        "resistance_ohm_mean": {
+          "mean": 0.15072083436935882,
+          "sample_sd": 0.0015204485056812443,
+          "per_seed": {
+            "20261014": 0.14961110474835407,
+            "20261015": 0.15009750616315007,
+            "20261016": 0.1524538921965723
+          }
+        },
+        "resistance_ohm_p95": {
+          "mean": 0.4426418166655483,
+          "sample_sd": 0.006976159877132494,
+          "per_seed": {
+            "20261014": 0.4447564780922222,
+            "20261015": 0.43485299563288266,
+            "20261016": 0.44831597627154013
+          }
+        },
+        "resistance_ohm_max": {
+          "mean": 1.9007701010938358,
+          "sample_sd": 0.2465533691597917,
+          "per_seed": {
+            "20261014": 1.872651214093919,
+            "20261015": 1.669481709898929,
+            "20261016": 2.1601773792886596
+          }
+        },
+        "inductance_h_median": {
+          "mean": 0.04709066688341353,
+          "sample_sd": 0.0014450027207335934,
+          "per_seed": {
+            "20261014": 0.04874667596798201,
+            "20261015": 0.046085862180503,
+            "20261016": 0.046439462501755575
+          }
+        },
+        "inductance_h_mean": {
+          "mean": 0.06211069878336486,
+          "sample_sd": 0.0016651514145542812,
+          "per_seed": {
+            "20261014": 0.06401290611430961,
+            "20261015": 0.06091683044590096,
+            "20261016": 0.061402359789884
+          }
+        },
+        "inductance_h_p95": {
+          "mean": 0.1714672669531341,
+          "sample_sd": 0.004355659878362927,
+          "per_seed": {
+            "20261014": 0.17519945987956465,
+            "20261015": 0.16668144020341857,
+            "20261016": 0.17252090077641913
+          }
+        },
+        "inductance_h_max": {
+          "mean": 0.5084247366050215,
+          "sample_sd": 0.04067814367577215,
+          "per_seed": {
+            "20261014": 0.49312496548986884,
+            "20261015": 0.47761491434032344,
+            "20261016": 0.5545343299848723
+          }
+        },
+        "capacitance_f_median": {
+          "mean": 0.06642836693558024,
+          "sample_sd": 0.0022404995331481597,
+          "per_seed": {
+            "20261014": 0.06857201984724519,
+            "20261015": 0.06410218713887052,
+            "20261016": 0.066610893820625
+          }
+        },
+        "capacitance_f_mean": {
+          "mean": 0.100330311839375,
+          "sample_sd": 0.0017041381962360806,
+          "per_seed": {
+            "20261014": 0.102109080719953,
+            "20261015": 0.0987121798817755,
+            "20261016": 0.10016967491639651
+          }
+        },
+        "capacitance_f_p95": {
+          "mean": 0.3101030701572603,
+          "sample_sd": 0.004752446064189792,
+          "per_seed": {
+            "20261014": 0.30917311295702377,
+            "20261015": 0.30588433993878944,
+            "20261016": 0.31525175757596763
+          }
+        },
+        "capacitance_f_max": {
+          "mean": 0.8665035026928346,
+          "sample_sd": 0.023440719084772438,
+          "per_seed": {
+            "20261014": 0.880846710189325,
+            "20261015": 0.8792108227143934,
+            "20261016": 0.8394529751747853
+          }
+        },
+        "any_gt10": {
+          "mean": 0.5865185185185186,
+          "sample_sd": 0.010000823011400142,
+          "per_seed": {
+            "20261014": 0.5906666666666668,
+            "20261015": 0.5937777777777778,
+            "20261016": 0.5751111111111111
+          }
+        },
+        "any_gt50": {
+          "mean": 0.0434074074074074,
+          "sample_sd": 0.0026881847869072617,
+          "per_seed": {
+            "20261014": 0.042444444444444444,
+            "20261015": 0.04133333333333333,
+            "20261016": 0.046444444444444434
+          }
+        }
+      },
+      "augmented": {
+        "resistance_ohm_median": {
+          "mean": 0.03925529944203807,
+          "sample_sd": 0.0037932251698639323,
+          "per_seed": {
+            "20261014": 0.04281845531090727,
+            "20261015": 0.03967973541959418,
+            "20261016": 0.03526770759561278
+          }
+        },
+        "resistance_ohm_mean": {
+          "mean": 0.049091814601487704,
+          "sample_sd": 0.0047935706734727026,
+          "per_seed": {
+            "20261014": 0.054078773110353695,
+            "20261015": 0.04867824001427251,
+            "20261016": 0.044518430679836914
+          }
+        },
+        "resistance_ohm_p95": {
+          "mean": 0.12718376825142272,
+          "sample_sd": 0.013487699943919842,
+          "per_seed": {
+            "20261014": 0.1413999012923348,
+            "20261015": 0.12558426059872255,
+            "20261016": 0.11456714286321085
+          }
+        },
+        "resistance_ohm_max": {
+          "mean": 0.302389215722276,
+          "sample_sd": 0.02361185171882112,
+          "per_seed": {
+            "20261014": 0.30813192679648943,
+            "20261015": 0.3226000068299286,
+            "20261016": 0.2764357135404099
+          }
+        },
+        "inductance_h_median": {
+          "mean": 0.028235245282316773,
+          "sample_sd": 0.0033981709054337543,
+          "per_seed": {
+            "20261014": 0.03106026005348052,
+            "20261015": 0.029181134419706906,
+            "20261016": 0.024464341373762896
+          }
+        },
+        "inductance_h_mean": {
+          "mean": 0.03559329980318935,
+          "sample_sd": 0.004144018109485307,
+          "per_seed": {
+            "20261014": 0.039085413943987984,
+            "20261015": 0.03668039296044614,
+            "20261016": 0.031014092505133928
+          }
+        },
+        "inductance_h_p95": {
+          "mean": 0.0927986513794929,
+          "sample_sd": 0.010042359997245903,
+          "per_seed": {
+            "20261014": 0.1006605653206654,
+            "20261015": 0.09624954554534142,
+            "20261016": 0.08148584327247192
+          }
+        },
+        "inductance_h_max": {
+          "mean": 0.27728891009414003,
+          "sample_sd": 0.06398780874460287,
+          "per_seed": {
+            "20261014": 0.258622886832896,
+            "20261015": 0.34853415274290495,
+            "20261016": 0.2247096907066191
+          }
+        },
+        "capacitance_f_median": {
+          "mean": 0.028872027164042354,
+          "sample_sd": 0.0037375500289359783,
+          "per_seed": {
+            "20261014": 0.0326006070413332,
+            "20261015": 0.02888990334261286,
+            "20261016": 0.025125571108181005
+          }
+        },
+        "capacitance_f_mean": {
+          "mean": 0.036178412790201175,
+          "sample_sd": 0.004194145314645196,
+          "per_seed": {
+            "20261014": 0.040376813830245696,
+            "20261015": 0.03616988834517836,
+            "20261016": 0.031988536195179475
+          }
+        },
+        "capacitance_f_p95": {
+          "mean": 0.09631292882651904,
+          "sample_sd": 0.01034480995997649,
+          "per_seed": {
+            "20261014": 0.10678987424797119,
+            "20261015": 0.09604339001402136,
+            "20261016": 0.08610552221756455
+          }
+        },
+        "capacitance_f_max": {
+          "mean": 0.20140891813951314,
+          "sample_sd": 0.022284526592323373,
+          "per_seed": {
+            "20261014": 0.2181628324929279,
+            "20261015": 0.20994585734485807,
+            "20261016": 0.17611806458075355
+          }
+        },
+        "any_gt10": {
+          "mean": 0.16037037037037036,
+          "sample_sd": 0.048799075751889846,
+          "per_seed": {
+            "20261014": 0.2111111111111111,
+            "20261015": 0.15622222222222223,
+            "20261016": 0.11377777777777777
+          }
+        },
+        "any_gt50": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "per_seed": {
+            "20261014": 0.0,
+            "20261015": 0.0,
+            "20261016": 0.0
+          }
+        }
+      }
+    },
+    "0.2": {
+      "clean": {
+        "resistance_ohm_median": {
+          "mean": 0.13681018069874584,
+          "sample_sd": 0.0012679921796564025,
+          "per_seed": {
+            "20261014": 0.1363178282868114,
+            "20261015": 0.1382505076466701,
+            "20261016": 0.13586220616275602
+          }
+        },
+        "resistance_ohm_mean": {
+          "mean": 0.20608202357698668,
+          "sample_sd": 0.00283527454169274,
+          "per_seed": {
+            "20261014": 0.2049381249507086,
+            "20261015": 0.20399739545357876,
+            "20261016": 0.20931055032667265
+          }
+        },
+        "resistance_ohm_p95": {
+          "mean": 0.6244722739678713,
+          "sample_sd": 0.013141686381092161,
+          "per_seed": {
+            "20261014": 0.6285742548222936,
+            "20261015": 0.6097688436280801,
+            "20261016": 0.6350737234532402
+          }
+        },
+        "resistance_ohm_max": {
+          "mean": 3.2505612536363473,
+          "sample_sd": 0.4372260962211422,
+          "per_seed": {
+            "20261014": 3.2437687579829366,
+            "20261015": 2.8167709786619963,
+            "20261016": 3.6911440242641085
+          }
+        },
+        "inductance_h_median": {
+          "mean": 0.061644057222044364,
+          "sample_sd": 0.0018614627243038015,
+          "per_seed": {
+            "20261014": 0.06371825629990145,
+            "20261015": 0.060118780345424755,
+            "20261016": 0.061095135020806886
+          }
+        },
+        "inductance_h_mean": {
+          "mean": 0.08166320112212656,
+          "sample_sd": 0.002104702461227157,
+          "per_seed": {
+            "20261014": 0.08402586602517352,
+            "20261015": 0.07998878311288694,
+            "20261016": 0.08097495422831923
+          }
+        },
+        "inductance_h_p95": {
+          "mean": 0.2252009111494543,
+          "sample_sd": 0.005701578391510617,
+          "per_seed": {
+            "20261014": 0.2313046170828472,
+            "20261015": 0.22001210320814113,
+            "20261016": 0.22428601315737465
+          }
+        },
+        "inductance_h_max": {
+          "mean": 0.7124718706518863,
+          "sample_sd": 0.07698437629868327,
+          "per_seed": {
+            "20261014": 0.6959896564988796,
+            "20261015": 0.6450634790085826,
+            "20261016": 0.7963624764481967
+          }
+        },
+        "capacitance_f_median": {
+          "mean": 0.08761914284457047,
+          "sample_sd": 0.003027384305988415,
+          "per_seed": {
+            "20261014": 0.0904540773948787,
+            "20261015": 0.08443040051800665,
+            "20261016": 0.08797295062082607
+          }
+        },
+        "capacitance_f_mean": {
+          "mean": 0.13155544994521626,
+          "sample_sd": 0.0024502692717785126,
+          "per_seed": {
+            "20261014": 0.13398738906438068,
+            "20261015": 0.12908725293236115,
+            "20261016": 0.13159170783890695
+          }
+        },
+        "capacitance_f_p95": {
+          "mean": 0.40331081038736327,
+          "sample_sd": 0.00598469792926542,
+          "per_seed": {
+            "20261014": 0.40521317176181354,
+            "20261015": 0.39660616333582316,
+            "20261016": 0.40811309606445306
+          }
+        },
+        "capacitance_f_max": {
+          "mean": 1.1335123813616461,
+          "sample_sd": 0.01290349154154861,
+          "per_seed": {
+            "20261014": 1.1220810532774066,
+            "20261015": 1.1475041343131285,
+            "20261016": 1.1309519564944035
+          }
+        },
+        "any_gt10": {
+          "mean": 0.6965185185185185,
+          "sample_sd": 0.005838710044129984,
+          "per_seed": {
+            "20261014": 0.7000000000000001,
+            "20261015": 0.6997777777777777,
+            "20261016": 0.6897777777777777
+          }
+        },
+        "any_gt50": {
+          "mean": 0.0905925925925926,
+          "sample_sd": 0.002280711750865274,
+          "per_seed": {
+            "20261014": 0.09000000000000001,
+            "20261015": 0.08866666666666667,
+            "20261016": 0.0931111111111111
+          }
+        }
+      },
+      "augmented": {
+        "resistance_ohm_median": {
+          "mean": 0.05133454743015851,
+          "sample_sd": 0.00485383810837923,
+          "per_seed": {
+            "20261014": 0.05589841586532212,
+            "20261015": 0.0518700718302395,
+            "20261016": 0.046235154594913896
+          }
+        },
+        "resistance_ohm_mean": {
+          "mean": 0.06450690077846354,
+          "sample_sd": 0.006109292380678002,
+          "per_seed": {
+            "20261014": 0.07092590636194744,
+            "20261015": 0.06383131370789545,
+            "20261016": 0.05876348226554771
+          }
+        },
+        "resistance_ohm_p95": {
+          "mean": 0.16850978997532326,
+          "sample_sd": 0.018017391732113457,
+          "per_seed": {
+            "20261014": 0.1874767233241783,
+            "20261015": 0.16643024012467875,
+            "20261016": 0.15162240647711267
+          }
+        },
+        "resistance_ohm_max": {
+          "mean": 0.3964563767473362,
+          "sample_sd": 0.040715212542951434,
+          "per_seed": {
+            "20261014": 0.4158365551484952,
+            "20261015": 0.42386123391782116,
+            "20261016": 0.34967134117569226
+          }
+        },
+        "inductance_h_median": {
+          "mean": 0.03714946789672386,
+          "sample_sd": 0.00415054928704307,
+          "per_seed": {
+            "20261014": 0.040652927971486987,
+            "20261015": 0.03822994283295903,
+            "20261016": 0.03256553288572558
+          }
+        },
+        "inductance_h_mean": {
+          "mean": 0.046562619074734884,
+          "sample_sd": 0.005351955470908461,
+          "per_seed": {
+            "20261014": 0.051096620807901415,
+            "20261015": 0.047932312940366456,
+            "20261016": 0.040658923475936776
+          }
+        },
+        "inductance_h_p95": {
+          "mean": 0.12118605873950716,
+          "sample_sd": 0.012166012957976731,
+          "per_seed": {
+            "20261014": 0.13077143832731497,
+            "20261015": 0.1252873132287594,
+            "20261016": 0.10749942466244712
+          }
+        },
+        "inductance_h_max": {
+          "mean": 0.38495210734292146,
+          "sample_sd": 0.08668409824097303,
+          "per_seed": {
+            "20261014": 0.3432661628619124,
+            "20261015": 0.4846039903257737,
+            "20261016": 0.3269861688410782
+          }
+        },
+        "capacitance_f_median": {
+          "mean": 0.037200293793303175,
+          "sample_sd": 0.004602000720435996,
+          "per_seed": {
+            "20261014": 0.04173971064776905,
+            "20261015": 0.037323007067388135,
+            "20261016": 0.03253816366475235
+          }
+        },
+        "capacitance_f_mean": {
+          "mean": 0.04710339358100371,
+          "sample_sd": 0.005434930849783011,
+          "per_seed": {
+            "20261014": 0.0525596157116312,
+            "20261015": 0.04706055780657937,
+            "20261016": 0.04169000722480056
+          }
+        },
+        "capacitance_f_p95": {
+          "mean": 0.12543686732009318,
+          "sample_sd": 0.014626181684159597,
+          "per_seed": {
+            "20261014": 0.14044213393050672,
+            "20261015": 0.12464666063428805,
+            "20261016": 0.11122180739548475
+          }
+        },
+        "capacitance_f_max": {
+          "mean": 0.27128454187749756,
+          "sample_sd": 0.028034306060829253,
+          "per_seed": {
+            "20261014": 0.29332172929555894,
+            "20261015": 0.2808011397755149,
+            "20261016": 0.23973075656141885
+          }
+        },
+        "any_gt10": {
+          "mean": 0.31392592592592594,
+          "sample_sd": 0.06634155293698313,
+          "per_seed": {
+            "20261014": 0.3824444444444444,
+            "20261015": 0.30933333333333335,
+            "20261016": 0.25
+          }
+        },
+        "any_gt50": {
+          "mean": 0.0002222222222222222,
+          "sample_sd": 0.00038490017945975053,
+          "per_seed": {
+            "20261014": 0.0,
+            "20261015": 0.0006666666666666666,
+            "20261016": 0.0
+          }
+        }
+      }
+    }
+  }
+}

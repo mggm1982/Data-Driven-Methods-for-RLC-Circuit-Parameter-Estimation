@@ -1,0 +1,70 @@
+{
+  "dataset_sha256": {
+    "circuits.csv": "dfb9f8a4ab2d3fe0391e245c08683edca2191c18e482e000266f6efa10dff462",
+    "waveforms.npz": "cf2b482429a992ba9355236024e18a7b3f41c2018f91bd1aaac64db3fedcd560"
+  },
+  "original_checkpoint_sha256": "df626ba784bde59d17970f9107f2961a98f71c677e2395103fff83c5a172c8ad",
+  "versions": {
+    "python": "3.14.8",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "torch": "2.14.1",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O"
+  },
+  "settings": {
+    "data_dir": "data",
+    "original_checkpoint": "runs/mlp/model.pt",
+    "output_dir": "runs/noise",
+    "device": "mps",
+    "seeds": [
+      20261014,
+      20261015,
+      20261016
+    ],
+    "epochs": 200,
+    "patience": 25,
+    "batch_size": 128,
+    "realizations": 3,
+    "repeats": 50,
+    "warmup": 5,
+    "cpu_threads": 1,
+    "learning_rate": 0.001
+  },
+  "channel_order_units": [
+    "current_a",
+    "capacitor_voltage_v"
+  ],
+  "channel_rms_physical": [
+    0.0012429107446223497,
+    1.0025502443313599
+  ],
+  "levels": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "noise_contract": {
+    "definition": "Independent zero-mean Gaussian per circuit/channel/time; sigma=level*clean-train RMS, including DC.",
+    "rng": "NumPy PCG64(SeedSequence([root, domain, level_index, realization])); float32 standard_normal in C order (circuit,channel,time).",
+    "domains": {
+      "train": 0,
+      "validation": 1,
+      "test": 2
+    },
+    "roots": {
+      "train": "paired model seed",
+      "validation": 20261017,
+      "test": 20261018
+    },
+    "order": "CSV split order, recorded batch size; reset bank stream for every model/validation epoch. Zero level consumes no noise.",
+    "augmentation": "Separate from torch shuffle RNG; choose one level uniformly per circuit each epoch, then fresh float32 normals for entire batch.",
+    "hash": "SHA256 of concatenated C-order float32 physical perturbation batches per condition; batch size and NumPy version are part of contract."
+  },
+  "accuracy_device": "mps",
+  "cpu_threads": 1,
+  "validation_realizations": 1,
+  "selection": "Both paired controls selected on equal-average fixed-bank MSE across all levels.",
+  "caveat": "Realizations are repeated measurements of the same circuits, not independent circuits. MPS bitwise training reproducibility is not guaranteed."
+}

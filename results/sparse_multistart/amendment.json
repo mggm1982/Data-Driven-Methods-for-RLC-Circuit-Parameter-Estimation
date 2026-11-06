@@ -1,0 +1,54 @@
+{
+  "kind": "Post-measurement source compatibility correction; not a new experiment",
+  "measured_manifest": "results/sparse_multistart/manifest.json",
+  "measured_source_snapshots": [
+    {
+      "original_path": "/Users/kunalkashyap/Development/Active/aimlproj/scripts/fit_baseline.py",
+      "manifest_field": "source_sha256",
+      "original_sha256": "1b37e5805d8db7a9ac1625e7e59b0af8218d31dc770610b91d85afdcce732c25",
+      "snapshot_path": "results/sparse_multistart/measured_source/fit_baseline.py",
+      "snapshot_sha256": "1b37e5805d8db7a9ac1625e7e59b0af8218d31dc770610b91d85afdcce732c25"
+    },
+    {
+      "original_path": "scripts/sparse_multistart.py",
+      "manifest_field": "implementation_sha256",
+      "original_sha256": "bbc3a8ea977a3621cb81e7254e7482b360689f880708412f197fab6d953f8af2",
+      "snapshot_path": "results/sparse_multistart/measured_source/sparse_multistart.py",
+      "snapshot_sha256": "bbc3a8ea977a3621cb81e7254e7482b360689f880708412f197fab6d953f8af2"
+    }
+  ],
+  "snapshot_note": "Exact copies of the measured working-tree sources preserved before compatibility edits. These snapshots, not the corrected reproducer, were used for the recorded run.",
+  "compatibility_correction": "Restored scripts/fit_baseline.py byte-for-byte to HEAD using edits. Its measured optional-start extension broke the original window/sampling frozen-source checks. Moved the explicit-start solver into scripts/sparse_multistart.py as bounded duplication; updated test patch targets. No provenance checks were weakened or altered.",
+  "restored_fitter": {
+    "path": "scripts/fit_baseline.py",
+    "sha256": "6095912bf8866e1de7ca7c15c1064929650b47399c384999633ef6f0c435a5dd",
+    "matches": ["HEAD", "results/fitting/manifest.json", "results/windows/results.json", "results/sampling/results.json"]
+  },
+  "corrected_reproducer": {
+    "path": "scripts/sparse_multistart.py",
+    "sha256": "52f961242a7d60c81a42470e01926817990a768672eedb87af5100fe3e882d98",
+    "used_during_measured_run": false
+  },
+  "semantic_equivalence_verification": {
+    "validation_script": "results/sparse_multistart/validate_compatibility.py",
+    "validation_script_sha256": "fd10c3e453459ac808b20b3b212e22619e9823144e20d17fa51145772f6d3ba1",
+    "record": "results/sparse_multistart/compatibility_validation.json",
+    "record_sha256": "5b67e2c3e48630480a7eac081f84ed9a4b928ee3891d0cf4afcc05ef10fc311c",
+    "command": ".venv/bin/python -m results.sparse_multistart.validate_compatibility",
+    "outcome": "Passed 60 solves: fixed test positions 0,749,1499 in clean and each of three saved noisy realizations, all five predetermined starts. Exact equality against saved measurements for predictions, costs, selection and all non-timing solver diagnostics. Snapshot, input, protocol, dataset, prediction-archive and regenerated full/selected noise hashes verified. Original unmodified window.references() passed including frozen-source hashes and all six historical checkpoint/prediction archives.",
+    "limits": "Fixed-case compatibility validation, not an experiment sweep or proof on all inputs. Timing excluded; no new latency claims, tuning, training or changes to measured predictions. Full measured experiment was not rerun."
+  },
+  "preserved_artifact_sha256": {
+    "results/sparse_multistart/manifest.json": "f218cc7542eb3f76f167b7451bcc5bc5dd207a757abee544d8900b806a9f750c",
+    "results/sparse_multistart/results.json": "f7c4f9a02400e5132e1e5f063cd629476330c73b9eb2fd80134dc5e8934d2521",
+    "results/sparse_multistart/report.md": "2bccce6fb1361051e4cae08935a5aa916fdc9e5111535e2be813d53dc5ee9095",
+    "docs/sparse_multistart.md": "60368d86c126889033e12162fe4dc058bf6ef30b411310af0083a675b9eb91c2"
+  },
+  "readable_addendum": "results/sparse_multistart/compatibility_addendum.md",
+  "other_verification": [
+    {"command": "git diff --exit-code HEAD -- scripts/fit_baseline.py", "outcome": "Passed; no diff"},
+    {"command": ".venv/bin/python -m unittest discover -s tests -v", "outcome": "Passed; 47 tests, including archived fitter source-hash regression"},
+    {"command": ".venv/bin/python paper/generate_tables.py --check", "outcome": "Passed; all 8 generated tables/reports up to date"},
+    {"command": "git diff --check", "outcome": "Passed"}
+  ]
+}

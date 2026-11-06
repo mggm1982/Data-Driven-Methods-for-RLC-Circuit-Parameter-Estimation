@@ -1,0 +1,98 @@
+<!doctype html><meta charset="utf-8"><title>Transient diagnostics</title>
+<style>body{color:var(--fg,inherit);margin:2em}section{border:1px solid var(--border,currentColor);padding:1em;margin-block:1em}svg{max-width:100%}text{fill:var(--muted,currentColor)}.axis{stroke:var(--border,currentColor);fill:none}.curve{stroke:var(--accent,currentColor);fill:none;stroke-width:2}.key{width:3em;height:1em}li,p{color:var(--muted,inherit)}</style>
+<h2>Descriptive transient diagnostics</h2><p>Underdamped only; fixed truth bins. Means of condition statistics, not pooled errors. No causal or optimal-window claim. See report.md and summary.json for counts, seed SD and every condition.</p>
+<section><h3>Sparse101 vs tau_ms</h3><p>Any component >10% error (%); bins in tau_ms</p>
+<svg viewBox="0 0 760 330" role="img" aria-label="Sparse101 vs tau_ms">
+<path class="axis" d="M65,35V250H730"/>
+<text x="5" y="250.0">0.0</text>
+<text x="5" y="196.2">14.7</text>
+<text x="5" y="142.5">29.4</text>
+<text x="5" y="88.7">44.1</text>
+<text x="5" y="35.0">58.8</text>
+<text text-anchor="middle" x="65.0" y="280">0.2–0.5</text>
+<text text-anchor="middle" x="228.8" y="280">0.5–1</text>
+<text text-anchor="middle" x="392.5" y="280">1–2</text>
+<text text-anchor="middle" x="556.2" y="280">2–5</text>
+<text text-anchor="middle" x="720.0" y="280">5–10</text>
+<polyline class="curve" points="65.0,247.8 228.8,246.8 392.5,223.2 556.2,237.9 720.0,250.0" stroke-dasharray="none"><title>single, 0% noise</title></polyline>
+<polyline class="curve" points="65.0,55.3 228.8,160.1 392.5,202.5 556.2,227.7 720.0,250.0" stroke-dasharray="8 3"><title>single, 10% noise</title></polyline>
+<polyline class="curve" points="65.0,250.0 228.8,250.0 392.5,250.0 556.2,250.0 720.0,250.0" stroke-dasharray="2 3"><title>five, 0% noise</title></polyline>
+<polyline class="curve" points="65.0,54.5 228.8,162.3 392.5,224.0 556.2,239.6 720.0,250.0" stroke-dasharray="10 3 2 3"><title>five, 10% noise</title></polyline>
+</svg><ul>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="none" d="M0,5H40"/></svg> single, 0% noise</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="8 3" d="M0,5H40"/></svg> single, 10% noise</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="2 3" d="M0,5H40"/></svg> five, 0% noise</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="10 3 2 3" d="M0,5H40"/></svg> five, 10% noise</li></ul></section>
+<section><h3>Sparse101 vs fd_khz</h3><p>Any component >10% error (%); bins in fd_khz</p>
+<svg viewBox="0 0 760 330" role="img" aria-label="Sparse101 vs fd_khz">
+<path class="axis" d="M65,35V250H730"/>
+<text x="5" y="250.0">0.0</text>
+<text x="5" y="196.2">17.9</text>
+<text x="5" y="142.5">35.8</text>
+<text x="5" y="88.8">53.6</text>
+<text x="5" y="35.0">71.5</text>
+<text text-anchor="middle" x="65.0" y="280">0–0.5</text>
+<text text-anchor="middle" x="283.3" y="280">0.5–1</text>
+<text text-anchor="middle" x="501.7" y="280">1–2</text>
+<text text-anchor="middle" x="720.0" y="280">2–5</text>
+<polyline class="curve" points="65.0,250.0 283.3,250.0 501.7,152.3" stroke-dasharray="none"><title>single, 0% noise</title></polyline>
+<polyline class="curve" points="65.0,239.8 283.3,196.5 501.7,54.5" stroke-dasharray="8 3"><title>single, 10% noise</title></polyline>
+<polyline class="curve" points="65.0,250.0 283.3,250.0 501.7,250.0" stroke-dasharray="2 3"><title>five, 0% noise</title></polyline>
+<polyline class="curve" points="65.0,239.8 283.3,196.4 501.7,135.4" stroke-dasharray="10 3 2 3"><title>five, 10% noise</title></polyline>
+</svg><ul>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="none" d="M0,5H40"/></svg> single, 0% noise</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="8 3" d="M0,5H40"/></svg> single, 10% noise</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="2 3" d="M0,5H40"/></svg> five, 0% noise</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="10 3 2 3" d="M0,5H40"/></svg> five, 10% noise</li></ul></section>
+<section><h3>Dense windows, 0% noise vs tau</h3><p>Median circuit maximum-component error (%); tau bins (ms)</p>
+<svg viewBox="0 0 760 330" role="img" aria-label="Dense windows, 0% noise vs tau">
+<path class="axis" d="M65,35V250H730"/>
+<text x="5" y="250.0">0.0</text>
+<text x="5" y="196.2">0.8</text>
+<text x="5" y="142.5">1.6</text>
+<text x="5" y="88.8">2.5</text>
+<text x="5" y="35.0">3.3</text>
+<text text-anchor="middle" x="65.0" y="280">0.2–0.5</text>
+<text text-anchor="middle" x="228.8" y="280">0.5–1</text>
+<text text-anchor="middle" x="392.5" y="280">1–2</text>
+<text text-anchor="middle" x="556.2" y="280">2–5</text>
+<text text-anchor="middle" x="720.0" y="280">5–10</text>
+<polyline class="curve" points="65.0,206.8 228.8,203.8 392.5,201.7 556.2,196.1 720.0,170.4" stroke-dasharray="none"><title>1 ms clean</title></polyline>
+<polyline class="curve" points="65.0,189.9 228.8,185.6 392.5,178.5 556.2,164.5 720.0,116.2" stroke-dasharray="8 3"><title>1 ms augmented</title></polyline>
+<polyline class="curve" points="65.0,197.9 228.8,202.5 392.5,195.4 556.2,173.8 720.0,133.0" stroke-dasharray="2 3"><title>5 ms clean</title></polyline>
+<polyline class="curve" points="65.0,179.1 228.8,182.9 392.5,176.6 556.2,155.7 720.0,123.5" stroke-dasharray="10 3 2 3"><title>5 ms augmented</title></polyline>
+<polyline class="curve" points="65.0,177.1 228.8,181.7 392.5,170.1 556.2,141.8 720.0,54.5" stroke-dasharray="5 5"><title>50 ms clean</title></polyline>
+<polyline class="curve" points="65.0,157.3 228.8,169.5 392.5,155.7 556.2,129.8 720.0,78.9" stroke-dasharray="1 5"><title>50 ms augmented</title></polyline>
+</svg><ul>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="none" d="M0,5H40"/></svg> 1 ms clean</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="8 3" d="M0,5H40"/></svg> 1 ms augmented</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="2 3" d="M0,5H40"/></svg> 5 ms clean</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="10 3 2 3" d="M0,5H40"/></svg> 5 ms augmented</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="5 5" d="M0,5H40"/></svg> 50 ms clean</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="1 5" d="M0,5H40"/></svg> 50 ms augmented</li></ul></section>
+<section><h3>Dense windows, 10% noise vs tau</h3><p>Median circuit maximum-component error (%); tau bins (ms)</p>
+<svg viewBox="0 0 760 330" role="img" aria-label="Dense windows, 10% noise vs tau">
+<path class="axis" d="M65,35V250H730"/>
+<text x="5" y="250.0">0.0</text>
+<text x="5" y="196.2">3.2</text>
+<text x="5" y="142.5">6.4</text>
+<text x="5" y="88.8">9.6</text>
+<text x="5" y="35.0">12.8</text>
+<text text-anchor="middle" x="65.0" y="280">0.2–0.5</text>
+<text text-anchor="middle" x="228.8" y="280">0.5–1</text>
+<text text-anchor="middle" x="392.5" y="280">1–2</text>
+<text text-anchor="middle" x="556.2" y="280">2–5</text>
+<text text-anchor="middle" x="720.0" y="280">5–10</text>
+<polyline class="curve" points="65.0,195.1 228.8,196.7 392.5,188.7 556.2,160.6 720.0,94.8" stroke-dasharray="none"><title>1 ms clean</title></polyline>
+<polyline class="curve" points="65.0,207.8 228.8,208.5 392.5,202.2 556.2,176.2 720.0,132.4" stroke-dasharray="8 3"><title>1 ms augmented</title></polyline>
+<polyline class="curve" points="65.0,183.9 228.8,188.2 392.5,196.0 556.2,199.4 720.0,194.0" stroke-dasharray="2 3"><title>5 ms clean</title></polyline>
+<polyline class="curve" points="65.0,209.5 228.8,212.9 392.5,215.6 556.2,214.7 720.0,207.8" stroke-dasharray="10 3 2 3"><title>5 ms augmented</title></polyline>
+<polyline class="curve" points="65.0,54.5 228.8,83.9 392.5,109.1 556.2,146.2 720.0,140.8" stroke-dasharray="5 5"><title>50 ms clean</title></polyline>
+<polyline class="curve" points="65.0,163.2 228.8,173.8 392.5,181.7 556.2,190.0 720.0,183.2" stroke-dasharray="1 5"><title>50 ms augmented</title></polyline>
+</svg><ul>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="none" d="M0,5H40"/></svg> 1 ms clean</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="8 3" d="M0,5H40"/></svg> 1 ms augmented</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="2 3" d="M0,5H40"/></svg> 5 ms clean</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="10 3 2 3" d="M0,5H40"/></svg> 5 ms augmented</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="5 5" d="M0,5H40"/></svg> 50 ms clean</li>
+<li><svg viewBox="0 0 40 10" class="key"><path class="curve" stroke-dasharray="1 5" d="M0,5H40"/></svg> 50 ms augmented</li></ul></section>

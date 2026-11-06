@@ -1,0 +1,107 @@
+{
+  "dataset_sha256": {
+    "circuits.csv": "dfb9f8a4ab2d3fe0391e245c08683edca2191c18e482e000266f6efa10dff462",
+    "waveforms.npz": "cf2b482429a992ba9355236024e18a7b3f41c2018f91bd1aaac64db3fedcd560"
+  },
+  "noise_manifest_sha256": "7f501a476c7805d2b91381c6b5d81c47177560b0495b709279823e9db199c9b4",
+  "noise_results_sha256": "8284cb5facb80caa5a9d2a4606907c29ca4376fc9e10bae7c52585017f522279",
+  "source_sha256": {
+    "/Users/kunalkashyap/Development/Active/aimlproj/scripts/fit_baseline.py": "6095912bf8866e1de7ca7c15c1064929650b47399c384999633ef6f0c435a5dd",
+    "/Users/kunalkashyap/Development/Active/aimlproj/scripts/generate_dataset.py": "5f939bc00cc7a7b9fe115d72d45425e2d5bedfc571033941b23299f52931194d",
+    "/Users/kunalkashyap/Development/Active/aimlproj/scripts/train_model.py": "4eaf18f3a256eafa54b2ef458797d5e0e8a2ef8ba25ffeea03f4f1303dbb48a0",
+    "/Users/kunalkashyap/Development/Active/aimlproj/scripts/noise_experiment.py": "085888f0168c53a34e98cc4f86e87b6b5e2414b0ac97e936a89719343c3f1516"
+  },
+  "versions": {
+    "python": "3.14.8",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "torch": "2.14.1",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O"
+  },
+  "settings": {
+    "data_dir": "data",
+    "noise_dir": "runs/noise",
+    "output_dir": "runs/fitting",
+    "max_nfev": 200
+  },
+  "solver": {
+    "method": "trf",
+    "jac": "2-point",
+    "loss": "linear",
+    "ftol": 1e-10,
+    "xtol": 1e-10,
+    "gtol": 1e-10,
+    "max_nfev": 200,
+    "bounds_physical": [
+      [
+        10.0,
+        0.01,
+        1e-06
+      ],
+      [
+        100.0,
+        0.05,
+        1e-05
+      ]
+    ],
+    "fixed_start_physical": [
+      31.622776601683803,
+      0.022360679774997897,
+      3.162277660168377e-06
+    ],
+    "coordinates": "log(R,L,C)"
+  },
+  "residual": "C-order stacked (prediction-observed)/fixed clean training channel RMS, float64; sigma weighting up to global level factor; defined at zero.",
+  "channel_rms_physical": [
+    0.0012429107446223497,
+    1.0025502443313599
+  ],
+  "channel_order_units": [
+    "current_a",
+    "capacitor_voltage_v"
+  ],
+  "target_names": [
+    "resistance_ohm",
+    "inductance_h",
+    "capacitance_f"
+  ],
+  "levels": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "noise_contract": {
+    "definition": "Independent zero-mean Gaussian per circuit/channel/time; sigma=level*clean-train RMS, including DC.",
+    "rng": "NumPy PCG64(SeedSequence([root, domain, level_index, realization])); float32 standard_normal in C order (circuit,channel,time).",
+    "domains": {
+      "train": 0,
+      "validation": 1,
+      "test": 2
+    },
+    "roots": {
+      "train": "paired model seed",
+      "validation": 20261017,
+      "test": 20261018
+    },
+    "order": "CSV split order, recorded batch size; reset bank stream for every model/validation epoch. Zero level consumes no noise.",
+    "augmentation": "Separate from torch shuffle RNG; choose one level uniformly per circuit each epoch, then fresh float32 normals for entire batch.",
+    "hash": "SHA256 of concatenated C-order float32 physical perturbation batches per condition; batch size and NumPy version are part of contract."
+  },
+  "batch_size": 128,
+  "realizations": 3,
+  "selection": "None; fixed geometric center for every solve; all failures retained in metrics.",
+  "cpu_threads": 1,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "thread_note": "Run in fresh CLI process so environment precedes numerical imports; serial solves.",
+  "timing_note": "Per circuit includes float64 conversion, scaling, solve, physical decode; excludes bank generation, disk and reporting. Throughput is serial solve throughput.",
+  "caveat": "Solver success != correct parameters or global optimum. Realizations repeat the same circuits. nfev excludes numerical-Jacobian calls; residual_calls counts them. Exception nfev/njev=-1, optimality=NaN in NPZ."
+}
